@@ -3,8 +3,8 @@
 <p align="center"><img src="./shiguang-icon.png" width="96" height="96" alt="拾光のアプリアイコン"></p>
 <h1 align="center">拾光 Shiguang</h1>
 <p align="center"><strong>撮影素材を、確かめながら持ち帰る。</strong></p>
-<p align="center">写真家と映像チームのための Mac 用素材ワークスペース。メモリーカード、ファイル、フォルダーから素材を取り込み、複数の保存先へ書き込み、コピーを検証して、検索できるプロジェクト・作業レポートを残します。</p>
-<p align="center"><a href="https://github.com/Sorasukiawa/shiguang/releases/download/v0.2.1/Shiguang_0.2.1_aarch64.dmg"><strong>v0.2.1 をダウンロード · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">使い方</a> · <a href="https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.1">更新内容</a></p>
+<p align="center">写真家、DIT、映像制作チームのための Mac 用素材ワークスペース。メモリーカード、ファイル、フォルダーから素材を取り込み、複数の保存先へ書き込み、コピーを検証して、検索できるプロジェクト・作業レポートを残します。</p>
+<p align="center"><a href="https://github.com/Sorasukiawa/shiguang/releases/download/v0.2.2/Shiguang_0.2.2_aarch64.dmg"><strong>v0.2.2 をダウンロード · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">使い方</a> · <a href="https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.2">更新内容</a></p>
 <p align="center">無料ベータ版 · 简体中文 / 繁體中文 / English / 日本語 · ライト／ダークテーマ</p>
 
 ![3 件のサンプル撮影プロジェクトを表示する拾光 v0.2.1 Mac のプロジェクト画面。ダークテーマ、中国語 UI](./projects-v0.2.1-native-macos.png)
@@ -44,13 +44,14 @@
 
 現在は**無料ベータ版**です。ad-hoc 署名を使用しており、Apple Developer ID 署名と公証はありません。[このリポジトリの Releases](https://github.com/Sorasukiawa/shiguang/releases) からのみ入手してください。カード取り込み、ファイルコピー、アーカイブの実行中は更新をインストールできません。
 
-## 最新版 · v0.2.1
+## 最新版 · v0.2.2
 
-- 簡易検証では保存先ファイルをすべて読み直して XXH64 を比較します。完全検証では元ファイルも独立して読み直します。システムキャッシュを回避できない機器では、その旨を結果に表示します。
-- 取り込み、ファイルコピー、プロジェクトへの追加、アーカイブの結果を検索・書き出しできます。中断した記録を成功として表示しません。
-- 低速ストレージの事前確認待ちが、ほかの画面のデータベース接続を占有しなくなりました。
+- 作業レポートのレイアウト、改ページ、内容表示を改善しました。
+- 完了通知から該当レポートを開けます。クリックと未表示レポートは保持されます。
+- 通知の消去や再起動後も送信確認済みの通知は再送しません。結果が不明な場合は自動再送を停止します。
+- 関連する設定スイッチの無効状態を修正しました。
 
-[詳しいリリースノート](https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.1) · [すべてのバージョン](./VERSIONS.md)
+[詳しいリリースノート](https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.2) · [すべてのバージョン](./VERSIONS.md)
 
 <details>
 <summary>検証、保存先、ネットワークフォルダー</summary>
