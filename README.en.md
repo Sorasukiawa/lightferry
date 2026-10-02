@@ -3,8 +3,8 @@
 <p align="center"><img src="./shiguang-icon.png" width="96" height="96" alt="Shiguang app icon"></p>
 <h1 align="center">Shiguang 拾光</h1>
 <p align="center"><strong>Bring your footage home with confidence.</strong></p>
-<p align="center">A Mac media workspace for photographers and video teams. Ingest camera cards, files, and folders; write to multiple destinations; verify each copy; and keep searchable project and task reports.</p>
-<p align="center"><a href="https://github.com/Sorasukiawa/shiguang/releases/download/v0.2.1/Shiguang_0.2.1_aarch64.dmg"><strong>Download v0.2.1 · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">User guides</a> · <a href="https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.1">What's new</a></p>
+<p align="center">A Mac media workspace for photographers, DITs, and video production teams. Ingest camera cards, files, and folders; write to multiple destinations; verify each copy; and keep searchable project and task reports.</p>
+<p align="center"><a href="https://github.com/Sorasukiawa/shiguang/releases/download/v0.2.2/Shiguang_0.2.2_aarch64.dmg"><strong>Download v0.2.2 · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">User guides</a> · <a href="https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.2">What's new</a></p>
 <p align="center">Free beta · 简体中文 / 繁體中文 / English / 日本語 · Light and dark themes</p>
 
 ![Shiguang v0.2.1 Mac project workspace with three sample photography projects; dark theme, Chinese interface](./projects-v0.2.1-native-macos.png)
@@ -44,13 +44,14 @@ Find results by project, date, type, and status; export an offline HTML or multi
 
 This is a **free beta** with an ad-hoc signature, without Apple Developer ID signing or notarization. Download only from [this repository's Releases](https://github.com/Sorasukiawa/shiguang/releases). Active ingest, file-copy, or archive tasks block installation of an update.
 
-## Current release · v0.2.1
+## Current release · v0.2.2
 
-- Fast verification fully rereads each destination file and compares XXH64. Full verification also independently rereads the source. Results disclose when the device cannot bypass the system cache.
-- Ingest, file-copy, project-import, and archive tasks now have searchable, exportable reports. Interrupted records are no longer shown as successful.
-- Storage preflight on a slow device no longer monopolizes the database connection used by other pages.
+- Clearer task-report layouts, pagination, and content.
+- Completion notifications open the matching report; clicks and pending reports persist.
+- Confirmed reminders are not resent after clearing notifications or restarting; unknown outcomes pause automatic retries.
+- Related settings switches correctly respect their disabled state.
 
-[Full release notes](https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.1) · [All versions](./VERSIONS.md)
+[Full release notes](https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.2) · [All versions](./VERSIONS.md)
 
 <details>
 <summary>Verification, storage, and network folders</summary>

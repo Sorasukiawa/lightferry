@@ -3,8 +3,8 @@
 <p align="center"><img src="./shiguang-icon.png" width="96" height="96" alt="拾光 App 圖示"></p>
 <h1 align="center">拾光 Shiguang</h1>
 <p align="center"><strong>把拍攝素材，妥善帶回。</strong></p>
-<p align="center">為攝影師與影像團隊設計的 Mac 素材工作台：從記憶卡、檔案與資料夾收取素材，寫入多個目的地，驗證副本，留下可查閱的專案與工作報告。</p>
-<p align="center"><a href="https://github.com/Sorasukiawa/shiguang/releases/download/v0.2.1/Shiguang_0.2.1_aarch64.dmg"><strong>下載 v0.2.1 · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">使用指南</a> · <a href="https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.1">版本更新</a></p>
+<p align="center">為攝影師、DIT 與影像製作團隊設計的 Mac 素材工作台：從記憶卡、檔案與資料夾收取素材，寫入多個目的地，驗證副本，留下可查閱的專案與工作報告。</p>
+<p align="center"><a href="https://github.com/Sorasukiawa/shiguang/releases/download/v0.2.2/Shiguang_0.2.2_aarch64.dmg"><strong>下載 v0.2.2 · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">使用指南</a> · <a href="https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.2">版本更新</a></p>
 <p align="center">免費測試版 · 简体中文 / 繁體中文 / English / 日本語 · 淺色與深色主題</p>
 
 ![拾光 v0.2.1 Mac 專案工作台，顯示三個示例攝影專案；深色主題，簡體中文介面](./projects-v0.2.1-native-macos.png)
@@ -44,13 +44,14 @@
 
 目前是**免費測試版**，採用 ad-hoc 簽名，尚未取得 Apple Developer ID 簽名或 Apple 公證。請只從[本倉庫 Releases](https://github.com/Sorasukiawa/shiguang/releases)下載。記憶卡轉存、檔案複製或封存執行時會阻止安裝更新。
 
-## 目前版本 · v0.2.1
+## 目前版本 · v0.2.2
 
-- 快速驗證完整重讀每份目的地檔案並比較 XXH64；完整驗證還會另外重讀來源。裝置無法繞過系統快取時，結果會如實標示。
-- 轉存、檔案複製、專案匯入與封存工作可篩選、查閱及匯出報告；中斷紀錄不會顯示為成功。
-- 等待較慢的儲存裝置預檢時，其他頁面不再受共用資料庫連線阻塞。
+- 改善工作報告的版面、分頁與內容呈現。
+- 完成通知可開啟對應報告，點擊與待開啟報告持久保存。
+- 清除通知、結束或重新啟動後不會重送已確認的提醒；結果不明時暫停自動重送。
+- 修正相關設定開關的停用狀態。
 
-[完整版本說明](https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.1) · [所有版本](./VERSIONS.md)
+[完整版本說明](https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.2) · [所有版本](./VERSIONS.md)
 
 <details>
 <summary>驗證、儲存裝置與網路資料夾</summary>
