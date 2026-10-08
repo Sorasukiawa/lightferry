@@ -1,6 +1,6 @@
 # 版本记录 / Release history / 版本紀錄 / リリース履歴
 
-拾光目前公开提供 **Apple Silicon macOS 免费内测版**。以下每个链接都固定指向对应版本，历史 DMG 不会自动跳到最新版。
+光渡（原名拾光）目前公开提供 **Apple Silicon macOS 免费内测版**。以下每个链接都固定指向对应版本，历史 DMG 不会自动跳到最新版。
 
 > v0.1.17 公开安装包缺少更新通道：已经安装该版的用户需结束任务、退出拾光，并使用目标版本的 DMG 手动升级。其他旧版若未配置更新通道，也请使用 DMG。
 
@@ -23,6 +23,6 @@
 
 - `Shiguang_<版本>_aarch64.dmg`：供 Apple Silicon Mac 手动安装。
 - `Shiguang_aarch64.app.tar.gz`、`.sig` 与 `latest.json`：供应用内更新使用；不是手动安装包。
-- GitHub 自动生成的 Source code 归档只包含本仓库公开资料，不包含拾光 App 源码。
+- GitHub 自动生成的 Source code 归档只包含本仓库公开资料，不包含光渡 App 源码。
 
 [返回主页](./README.md) · [Back to README](./README.en.md)
