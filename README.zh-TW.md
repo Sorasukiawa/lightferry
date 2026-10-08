@@ -1,30 +1,31 @@
 [简体中文](./README.md) · [繁體中文](./README.zh-TW.md) · [English](./README.en.md) · [日本語](./README.ja.md)
 
-<p align="center"><img src="./shiguang-icon.png" width="96" height="96" alt="拾光 App 圖示"></p>
-<h1 align="center">拾光 Shiguang</h1>
+<p align="center"><img src="./shiguang-icon.png" width="96" height="96" alt="光渡 App 圖示"></p>
+<h1 align="center">光渡 Lightferry</h1>
 <p align="center"><strong>把拍攝素材，妥善帶回。</strong></p>
+<p align="center">原名「拾光 Shiguang」。v0.2.2 安裝後仍顯示舊名，下一版起統一為光渡。</p>
 <p align="center">為攝影師、DIT 與影像製作團隊設計的 Mac 素材工作台：從記憶卡、檔案與資料夾收取素材，寫入多個目的地，驗證副本，留下可查閱的專案與工作報告。</p>
 <p align="center"><a href="https://github.com/Sorasukiawa/shiguang/releases/download/v0.2.2/Shiguang_0.2.2_aarch64.dmg"><strong>下載 v0.2.2 · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">使用指南</a> · <a href="https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.2">版本更新</a></p>
 <p align="center">免費測試版 · 简体中文 / 繁體中文 / English / 日本語 · 淺色與深色主題</p>
 
-![拾光 v0.2.1 Mac 專案工作台，顯示三個示例攝影專案；深色主題，簡體中文介面](./projects-v0.2.1-native-macos.png)
+![v0.2.1 Mac 專案工作台，顯示三個示例攝影專案；深色主題，簡體中文介面](./projects-v0.2.1-native-macos.png)
 
 *v0.2.1 Apple Silicon Mac 原生視窗截圖；專案名稱與資料來自隔離的演示環境。*
 
 ## 一條清楚的素材工作流程
 
-| 從哪裡開始 | 拾光會做什麼 | 最後可確認什麼 |
+| 從哪裡開始 | 光渡會做什麼 | 最後可確認什麼 |
 | --- | --- | --- |
 | **記憶卡轉存** | 辨識照片、影片與音訊，依專案、拍攝日及機位整理；讀取來源一次，同時寫入工作碟與第二備份碟 | 各目的地的複製與驗證結果、記憶卡紀錄及補拷狀態 |
 | **檔案與資料夾複製** | 從 Finder 拖入或選擇來源，保留資料夾層級，寫入一個或多個目的地 | 來源清單、空間預檢、傳輸結果及失敗副本的重試入口 |
 | **專案素材匯入** | 把現有素材加入指定專案，依照片、影片、音訊、工程檔等類別對應資料夾 | 匯入位置、專案紀錄與工作結果 |
 | **專案封存** | 封存至本機或網路目的地，保留專案紀錄；不會自動刪除本機素材 | 封存工作、可取得的驗證結果與報告 |
 
-拾光**不覆蓋現有檔案**。多目的地工作會分別記錄結果；中斷或目的地離線後，重新確認目的地身分與空間，再補齊未完成的副本。
+光渡**不覆蓋現有檔案**。多目的地工作會分別記錄結果；中斷或目的地離線後，重新確認目的地身分與空間，再補齊未完成的副本。
 
 ### 檔案複製
 
-![拾光 v0.2.1 Mac 檔案複製畫面：示例來源、兩個目的地與完整驗證；簡體中文介面](./file-copy-v0.2.1-native-macos.png)
+![v0.2.1 Mac 檔案複製畫面：示例來源、兩個目的地與完整驗證；簡體中文介面](./file-copy-v0.2.1-native-macos.png)
 
 *v0.2.1 Apple Silicon Mac 原生視窗截圖；路徑與檔案來自隔離的演示環境。*
 
@@ -32,14 +33,14 @@
 
 可依專案、日期、類型與狀態搜尋工作結果，並匯出離線 HTML 或多頁 PDF。舊紀錄缺少的欄位會標為「未記錄」，不會推定成功。
 
-<img src="./report-v0.2.1-synthetic.png" width="480" alt="拾光 v0.2.1 PDF 工作報告示例，使用合成資料展示中斷與失敗狀態；簡體中文內容">
+<img src="./report-v0.2.1-synthetic.png" width="480" alt="v0.2.1 PDF 工作報告示例，使用合成資料展示中斷與失敗狀態；簡體中文內容">
 
 *v0.2.1 報告示例；所有內容均為合成資料。*
 
 ## 開始使用
 
 1. 下載上方的 **Apple Silicon Mac** DMG；目前沒有 Intel Mac 或 Windows 公開安裝包。可在 ** → 關於這台 Mac** 查看晶片。
-2. 開啟 DMG，把「拾光」拖入「應用程式」。若 macOS 阻止首次開啟，至 **系統設定 → 隱私權與安全性** 核對 App 後選擇「仍要打開」。無需關閉 Gatekeeper。
+2. 開啟 DMG，把「拾光」拖入「應用程式」（v0.2.2 仍使用舊名）。若 macOS 阻止首次開啟，至 **系統設定 → 隱私權與安全性** 核對 App 後選擇「仍要打開」。無需關閉 Gatekeeper。
 3. 加入來源、專案與目的地，確認空間和驗證方式再開始。重要素材請保留原卡和另一份可靠備份，確認副本後才格式化記憶卡。
 
 目前是**免費測試版**，採用 ad-hoc 簽名，尚未取得 Apple Developer ID 簽名或 Apple 公證。請只從[本倉庫 Releases](https://github.com/Sorasukiawa/shiguang/releases)下載。記憶卡轉存、檔案複製或封存執行時會阻止安裝更新。
@@ -57,15 +58,15 @@
 <summary>驗證、儲存裝置與網路資料夾</summary>
 
 - **不驗證**只依據寫入過程是否報錯，不適合重要素材。**快速驗證**重讀每份目的地檔案，以 XXH64 比對寫入時的來源雜湊。**完整驗證**再獨立重讀所有來源檔案。XXH64 是內容差異檢查，不是加密簽名；通過後仍應人工抽查關鍵素材。
-- 工作碟、第二備份碟及封存目的地建議使用 APFS。ExFAT 可作為目的地，但必須先通過拾光的安全能力檢查；無法確認安全時會在寫入前拒絕。ExFAT 記憶卡可作為唯讀來源。拾光不要求格式化現有媒體。
-- 素材掃描、複製、驗證與專案紀錄預設在本機完成，不會上傳到拾光伺服器。若選擇 NAS 或第三方同步資料夾，後續網路傳輸或同步由相應系統與服務處理；斷線與同步行為應依實際環境確認。
+- 工作碟、第二備份碟及封存目的地建議使用 APFS。ExFAT 可作為目的地，但必須先通過光渡的安全能力檢查；無法確認安全時會在寫入前拒絕。ExFAT 記憶卡可作為唯讀來源。光渡不要求格式化現有媒體。
+- 素材掃描、複製、驗證與專案紀錄預設在本機完成，不會上傳到光渡伺服器。若選擇 NAS 或第三方同步資料夾，後續網路傳輸或同步由相應系統與服務處理；斷線與同步行為應依實際環境確認。
 
 </details>
 
 ## 幫助與回饋
 
-[官網](https://getshiguang.pages.dev/) · [使用指南](https://getshiguang.pages.dev/guides/) · [回報問題或建議](https://github.com/Sorasukiawa/shiguang/issues)
+[官網](https://getshiguang.pages.dev/) · [使用指南](https://getshiguang.pages.dev/guides/) · [回報問題或建議](https://github.com/Sorasukiawa/shiguang/issues) · 不便公開的問題：[support@lightferry.app](mailto:support@lightferry.app)
 
 回報時請提供版本、macOS 與晶片型號、來源及目的地格式、重現步驟和錯誤文字；截圖請遮蔽專案名稱與路徑，**不要上傳原始素材或客戶資料**。
 
-本倉庫用於發佈安裝包、說明、版本紀錄與回饋。**不包含拾光 App 原始碼，沒有提供開源授權或再散佈權利。** GitHub 自動產生的 Source code 壓縮檔只是本倉庫的公開資料，不能用來安裝拾光。
+本倉庫用於發佈安裝包、說明、版本紀錄與回饋。**不包含光渡 App 原始碼，沒有提供開源授權或再散佈權利。** GitHub 自動產生的 Source code 壓縮檔只是本倉庫的公開資料，不能用來安裝光渡。
