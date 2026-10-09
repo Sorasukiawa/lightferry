@@ -1,8 +1,8 @@
-# 拾光 Shiguang v0.1.11 · 免费内测与应用内更新
+# 光渡 Lightferry v0.1.11 · 免费内测与应用内更新
 
 **历史版本 / Historical release** · 首次免费内测：相机卡识别、双目标拷贝、三档校验、MHL 与报告、项目预设和归档流程；修复中文输入法确认候选时误创建项目。
 
-**[下载本版本 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/shiguang/releases/download/v0.1.11/Shiguang_0.1.11_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/shiguang/blob/main/VERSIONS.md)
+**[下载本版本 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/lightferry/releases/download/v0.1.11/Lightferry_0.1.11_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/lightferry/blob/main/VERSIONS.md)
 
 <strong>历史版本提示：</strong>本页下载固定为此版本。若已安装的旧版没有更新通道，请结束任务、退出 App 后用目标版本 DMG 手动升级。
 
@@ -32,7 +32,7 @@ Apple Silicon macOS 向けの無料ベータ版のみです。ad-hoc 署名で�
 
 <details><summary>详细发布记录（简体中文）</summary>
 
-拾光是面向**摄影师、摄像师及摄影摄像团队**的本地拷卡、双备份、校验与项目归档工具。v0.1.11 是对外试用的免费内测版，希望让个人创作者和团队都能以更清晰、更可追溯的方式管理每一次素材交接。
+光渡是面向**摄影师、摄像师及摄影摄像团队**的本地拷卡、双备份、校验与项目归档工具。v0.1.11 是对外试用的免费内测版，希望让个人创作者和团队都能以更清晰、更可追溯的方式管理每一次素材交接。
 
 ## 本次提供的安装包
 
@@ -63,13 +63,13 @@ Apple Silicon macOS 向けの無料ベータ版のみです。ad-hoc 署名で�
 
 ### 1. 尚未做 Developer ID 签名与公证
 
-这一内测包尚未使用 Apple Developer ID 签名，也未经 Apple 公证。请仅从 [Sorasukiawa/shiguang](https://github.com/Sorasukiawa/shiguang) 的 Releases 下载。把应用拖入“Applications / 应用程序”后，如 macOS 拦截首次启动，请前往 **系统设置 → 隐私与安全性**，核对应用名称后选择“仍要打开”。
+这一内测包尚未使用 Apple Developer ID 签名，也未经 Apple 公证。请仅从 [Sorasukiawa/lightferry](https://github.com/Sorasukiawa/lightferry) 的 Releases 下载。把应用拖入“Applications / 应用程序”后，如 macOS 拦截首次启动，请前往 **系统设置 → 隐私与安全性**，核对应用名称后选择“仍要打开”。
 
 无需关闭 Gatekeeper，也不建议通过命令行全局降低系统安全级别。
 
 ### 2. APFS 推荐，ExFAT 目标盘会先检查
 
-在 macOS 内测版中，**APFS 是工作盘、第二备份盘和归档目标盘的推荐格式**。ExFAT 也可以作为目标，但拾光会先检查能否安全写入；无法确认时会在复制素材前停止。ExFAT 相机卡可以直接作为只读素材来源，无需为了使用拾光而格式化已有硬盘。
+在 macOS 内测版中，**APFS 是工作盘、第二备份盘和归档目标盘的推荐格式**。ExFAT 也可以作为目标，但光渡会先检查能否安全写入；无法确认时会在复制素材前停止。ExFAT 相机卡可以直接作为只读素材来源，无需为了使用光渡而格式化已有硬盘。
 
 ### 3. 自动更新说明
 
@@ -84,16 +84,16 @@ v0.1.11 首次支持应用内检查更新。如果应用内没有显示新版或
 
 ## 反馈
 
-欢迎在 [GitHub Issues](https://github.com/Sorasukiawa/shiguang/issues) 提交 Bug 或交互建议。请附上拾光版本、macOS 版本、Mac 芯片型号、盘符格式和重现步骤；发布截图前请遮挡客户名称、项目名称与本地路径，不要上传原始素材或客户资料。
+欢迎在 [GitHub Issues](https://github.com/Sorasukiawa/lightferry/issues) 提交 Bug 或交互建议。请附上光渡版本、macOS 版本、Mac 芯片型号、盘符格式和重现步骤；发布截图前请遮挡客户名称、项目名称与本地路径，不要上传原始素材或客户资料。
 
 ---
 
-本仓库仅发布拾光的官方安装包、说明与反馈，不包含源代码，也不构成开源授权。
+本仓库仅发布光渡的官方安装包、说明与反馈，不包含源代码，也不构成开源授权。
 
 </details>
 
 ---
 
-<strong>安装与文件：</strong>本版仅提供 Apple Silicon macOS。DMG 用于手动安装；同页的 `Shiguang_aarch64.app.tar.gz`、`.sig` 和 `latest.json` 供应用内更新使用。本版为 ad-hoc 签名，未获 Apple Developer ID 签名或 Apple 公证。GitHub 自动生成的 Source code 归档只是公开资料，不含拾光 App 源码，也不是安装包。
+<strong>安装与文件：</strong>本版仅提供 Apple Silicon macOS。DMG 用于手动安装；同页的 `Lightferry_aarch64.app.tar.gz`、`.sig` 和 `latest.json` 供应用内更新使用。本版为 ad-hoc 签名，未获 Apple Developer ID 签名或 Apple 公证。GitHub 自动生成的 Source code 归档只是公开资料，不含光渡 App 源码，也不是安装包。
 
-重要素材请保留原始卡和另一份可靠备份，确认副本后再格式化。问题请提交至 [Issues](https://github.com/Sorasukiawa/shiguang/issues)，不要上传原始素材、客户资料或私密路径。
+重要素材请保留原始卡和另一份可靠备份，确认副本后再格式化。问题请提交至 [Issues](https://github.com/Sorasukiawa/lightferry/issues)，不要上传原始素材、客户资料或私密路径。
