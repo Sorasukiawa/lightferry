@@ -3,7 +3,6 @@
 <p align="center"><img src="./shiguang-icon.png" width="96" height="96" alt="Lightferry app icon"></p>
 <h1 align="center">Lightferry 光渡</h1>
 <p align="center"><strong>Bring your footage home with confidence.</strong></p>
-<p align="center">Formerly Shiguang 拾光. v0.2.2 still shows the old name after installation; the next release switches to Lightferry.</p>
 <p align="center">A Mac media workspace for photographers, DITs, and video production teams. Ingest camera cards, files, and folders; write to multiple destinations; verify each copy; and keep searchable project and task reports.</p>
 <p align="center"><a href="https://github.com/Sorasukiawa/lightferry/releases/download/v0.2.2/Lightferry_0.2.2_aarch64.dmg"><strong>Download v0.2.2 · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">User guides</a> · <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2">What's new</a></p>
 <p align="center">Free beta · 简体中文 / 繁體中文 / English / 日本語 · Light and dark themes</p>
@@ -40,7 +39,7 @@ Find results by project, date, type, and status; export an offline HTML or multi
 ## Get started
 
 1. Download the **Apple Silicon Mac** DMG above. There is no public Intel Mac or Windows installer. Check your chip in **Apple menu → About This Mac**.
-2. Open the DMG and drag Shiguang into Applications (v0.2.2 still uses the old name). If macOS blocks the first launch, verify the app in **System Settings → Privacy & Security** and choose **Open Anyway**. You do not need to disable Gatekeeper.
+2. Open the DMG and drag the app into Applications. If macOS blocks the first launch, verify the app in **System Settings → Privacy & Security** and choose **Open Anyway**. You do not need to disable Gatekeeper.
 3. Add a source, project, and destinations. Review capacity and verification before starting. Keep the original card and another reliable backup for important media; format the card only after checking the copies.
 
 This is a **free beta** with an ad-hoc signature, without Apple Developer ID signing or notarization. Download only from [this repository's Releases](https://github.com/Sorasukiawa/lightferry/releases). Active ingest, file-copy, or archive tasks block installation of an update.
