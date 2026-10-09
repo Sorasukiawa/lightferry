@@ -3,7 +3,6 @@
 <p align="center"><img src="./shiguang-icon.png" width="96" height="96" alt="光渡のアプリアイコン"></p>
 <h1 align="center">光渡 Lightferry</h1>
 <p align="center"><strong>撮影素材を、確かめながら持ち帰る。</strong></p>
-<p align="center">旧名は「拾光 Shiguang」です。v0.2.2 はインストール後も旧名で表示され、次のバージョンから光渡に統一します。</p>
 <p align="center">写真家、DIT、映像制作チームのための Mac 用素材ワークスペース。メモリーカード、ファイル、フォルダーから素材を取り込み、複数の保存先へ書き込み、コピーを検証して、検索できるプロジェクト・作業レポートを残します。</p>
 <p align="center"><a href="https://github.com/Sorasukiawa/lightferry/releases/download/v0.2.2/Lightferry_0.2.2_aarch64.dmg"><strong>v0.2.2 をダウンロード · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">使い方</a> · <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2">更新内容</a></p>
 <p align="center">無料ベータ版 · 简体中文 / 繁體中文 / English / 日本語 · ライト／ダークテーマ</p>
@@ -40,7 +39,7 @@
 ## 使い始める
 
 1. 上の **Apple Silicon Mac** 用 DMG をダウンロードしてください。Intel Mac と Windows 向けの公開インストーラーはありません。チップは ** → この Mac について** で確認できます。
-2. DMG を開き、拾光を「アプリケーション」へドラッグします（v0.2.2 は旧名のままです）。macOS が初回起動を止めた場合は、**システム設定 → プライバシーとセキュリティ** でアプリを確認し、「このまま開く」を選びます。Gatekeeper を無効にする必要はありません。
+2. DMG を開き、アプリを「アプリケーション」へドラッグします。macOS が初回起動を止めた場合は、**システム設定 → プライバシーとセキュリティ** でアプリを確認し、「このまま開く」を選びます。Gatekeeper を無効にする必要はありません。
 3. 元データ、プロジェクト、保存先を追加し、容量と検証方法を確認してから開始してください。大切な素材は元カードと別の信頼できるバックアップを残し、コピー確認後にカードを初期化してください。
 
 現在は**無料ベータ版**です。ad-hoc 署名を使用しており、Apple Developer ID 署名と公証はありません。[このリポジトリの Releases](https://github.com/Sorasukiawa/lightferry/releases) からのみ入手してください。カード取り込み、ファイルコピー、アーカイブの実行中は更新をインストールできません。

@@ -3,7 +3,6 @@
 <p align="center"><img src="./shiguang-icon.png" width="96" height="96" alt="光渡 App 圖示"></p>
 <h1 align="center">光渡 Lightferry</h1>
 <p align="center"><strong>把拍攝素材，妥善帶回。</strong></p>
-<p align="center">原名「拾光 Shiguang」。v0.2.2 安裝後仍顯示舊名，下一版起統一為光渡。</p>
 <p align="center">為攝影師、DIT 與影像製作團隊設計的 Mac 素材工作台：從記憶卡、檔案與資料夾收取素材，寫入多個目的地，驗證副本，留下可查閱的專案與工作報告。</p>
 <p align="center"><a href="https://github.com/Sorasukiawa/lightferry/releases/download/v0.2.2/Lightferry_0.2.2_aarch64.dmg"><strong>下載 v0.2.2 · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">使用指南</a> · <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2">版本更新</a></p>
 <p align="center">免費測試版 · 简体中文 / 繁體中文 / English / 日本語 · 淺色與深色主題</p>
@@ -40,7 +39,7 @@
 ## 開始使用
 
 1. 下載上方的 **Apple Silicon Mac** DMG；目前沒有 Intel Mac 或 Windows 公開安裝包。可在 ** → 關於這台 Mac** 查看晶片。
-2. 開啟 DMG，把「拾光」拖入「應用程式」（v0.2.2 仍使用舊名）。若 macOS 阻止首次開啟，至 **系統設定 → 隱私權與安全性** 核對 App 後選擇「仍要打開」。無需關閉 Gatekeeper。
+2. 開啟 DMG，把 App 拖入「應用程式」。若 macOS 阻止首次開啟，至 **系統設定 → 隱私權與安全性** 核對 App 後選擇「仍要打開」。無需關閉 Gatekeeper。
 3. 加入來源、專案與目的地，確認空間和驗證方式再開始。重要素材請保留原卡和另一份可靠備份，確認副本後才格式化記憶卡。
 
 目前是**免費測試版**，採用 ad-hoc 簽名，尚未取得 Apple Developer ID 簽名或 Apple 公證。請只從[本倉庫 Releases](https://github.com/Sorasukiawa/lightferry/releases)下載。記憶卡轉存、檔案複製或封存執行時會阻止安裝更新。
