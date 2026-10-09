@@ -5,7 +5,7 @@
 <p align="center"><strong>把拍摄素材，妥帖带回。</strong></p>
 <p align="center">原名「拾光 Shiguang」。v0.2.2 安装后仍显示旧名，下一版本起统一为光渡。</p>
 <p align="center">面向摄影师、DIT 与影像制作团队的 Mac 素材工作台：从相机卡、文件与文件夹收取素材，写入多个目的地，校验副本，留下可查阅的项目与任务报告。</p>
-<p align="center"><a href="https://github.com/Sorasukiawa/shiguang/releases/download/v0.2.2/Shiguang_0.2.2_aarch64.dmg"><strong>下载 v0.2.2 · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">使用指南</a> · <a href="https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.2">本次更新</a></p>
+<p align="center"><a href="https://github.com/Sorasukiawa/lightferry/releases/download/v0.2.2/Lightferry_0.2.2_aarch64.dmg"><strong>下载 v0.2.2 · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">使用指南</a> · <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2">本次更新</a></p>
 <p align="center">免费内测 · 简体中文 / 繁體中文 / English / 日本語 · 浅色与深色主题</p>
 
 ![v0.2.1 Mac 项目工作台，展示三个示例摄影项目；深色主题](./projects-v0.2.1-native-macos.png)
@@ -43,7 +43,7 @@
 2. 打开 DMG，将“拾光”拖入“应用程序”（v0.2.2 仍使用旧名）。若首次启动被 macOS 拦截，前往 **系统设置 → 隐私与安全性**，核对应用后选择“仍要打开”。无需关闭 Gatekeeper。
 3. 添加来源、项目和目标盘，检查空间与校验方式后再开始。重要素材请保留原卡及另一份可靠备份，确认副本后再格式化卡片。
 
-当前为 **免费内测版**，采用 ad-hoc 签名，尚无 Apple Developer ID 签名或 Apple 公证。请只从[本仓库 Releases](https://github.com/Sorasukiawa/shiguang/releases)下载。正在运行的拷卡、文件拷贝或归档任务会阻止更新安装。
+当前为 **免费内测版**，采用 ad-hoc 签名，尚无 Apple Developer ID 签名或 Apple 公证。请只从[本仓库 Releases](https://github.com/Sorasukiawa/lightferry/releases)下载。正在运行的拷卡、文件拷贝或归档任务会阻止更新安装。
 
 ## 当前版本 · v0.2.2
 
@@ -52,7 +52,7 @@
 - 清除通知、退出或重启后不会重复发送已确认的提醒；结果不明时暂停自动重发。
 - 修复设置子开关的禁用状态。
 
-[阅读完整发布说明](https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.2) · [浏览所有版本](./VERSIONS.md)
+[阅读完整发布说明](https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2) · [浏览所有版本](./VERSIONS.md)
 
 <details>
 <summary>校验、存储盘与网络目录</summary>
@@ -65,7 +65,7 @@
 
 ## 帮助与反馈
 
-[官网](https://getshiguang.pages.dev/) · [使用指南](https://getshiguang.pages.dev/guides/) · [提交问题或建议](https://github.com/Sorasukiawa/shiguang/issues) · 不便公开的问题：[support@lightferry.app](mailto:support@lightferry.app)
+[官网](https://getshiguang.pages.dev/) · [使用指南](https://getshiguang.pages.dev/guides/) · [提交问题或建议](https://github.com/Sorasukiawa/lightferry/issues) · 不便公开的问题：[support@lightferry.app](mailto:support@lightferry.app)
 
 反馈时请提供版本、macOS 与芯片型号、来源和目标格式、复现步骤及错误文字；截图请遮挡项目名和路径，**不要上传原始素材或客户资料**。
 

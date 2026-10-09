@@ -1,8 +1,8 @@
-# 拾光 Shiguang v0.2.2
+# 光渡 Lightferry v0.2.2
 
 本版改进任务报告、完成通知与通知点击恢复，并修复设置开关的禁用状态。
 
-**[下载 v0.2.2 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/shiguang/releases/download/v0.2.2/Shiguang_0.2.2_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/shiguang/blob/main/VERSIONS.md)
+**[下载 v0.2.2 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/lightferry/releases/download/v0.2.2/Lightferry_0.2.2_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/lightferry/blob/main/VERSIONS.md)
 
 ## 简体中文
 
@@ -52,4 +52,4 @@
 
 Apple Silicon macOS 免费内测版／免費測試版／free beta／無料ベータ版。采用 ad-hoc 签名，未获 Apple Developer ID 签名或公证；本版不包含开发中的视频编码功能。
 
-DMG 供手动安装；`Shiguang_aarch64.app.tar.gz`、`.sig` 与 `latest.json` 供应用内更新使用。GitHub 的 Source code 归档仅含公开资料，不包含 App 源码。正在执行的传输任务会阻止安装更新。重要素材请保留原卡和另一份可靠备份。
+DMG 供手动安装；`Lightferry_aarch64.app.tar.gz`、`.sig` 与 `latest.json` 供应用内更新使用。GitHub 的 Source code 归档仅含公开资料，不包含 App 源码。正在执行的传输任务会阻止安装更新。重要素材请保留原卡和另一份可靠备份。
