@@ -5,7 +5,7 @@
 <p align="center"><strong>Bring your footage home with confidence.</strong></p>
 <p align="center">Formerly Shiguang 拾光. v0.2.2 still shows the old name after installation; the next release switches to Lightferry.</p>
 <p align="center">A Mac media workspace for photographers, DITs, and video production teams. Ingest camera cards, files, and folders; write to multiple destinations; verify each copy; and keep searchable project and task reports.</p>
-<p align="center"><a href="https://github.com/Sorasukiawa/shiguang/releases/download/v0.2.2/Shiguang_0.2.2_aarch64.dmg"><strong>Download v0.2.2 · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">User guides</a> · <a href="https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.2">What's new</a></p>
+<p align="center"><a href="https://github.com/Sorasukiawa/lightferry/releases/download/v0.2.2/Lightferry_0.2.2_aarch64.dmg"><strong>Download v0.2.2 · Apple Silicon Mac</strong></a> · <a href="https://getshiguang.pages.dev/guides/">User guides</a> · <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2">What's new</a></p>
 <p align="center">Free beta · 简体中文 / 繁體中文 / English / 日本語 · Light and dark themes</p>
 
 ![v0.2.1 Mac project workspace with three sample photography projects; dark theme, Chinese interface](./projects-v0.2.1-native-macos.png)
@@ -43,7 +43,7 @@ Find results by project, date, type, and status; export an offline HTML or multi
 2. Open the DMG and drag Shiguang into Applications (v0.2.2 still uses the old name). If macOS blocks the first launch, verify the app in **System Settings → Privacy & Security** and choose **Open Anyway**. You do not need to disable Gatekeeper.
 3. Add a source, project, and destinations. Review capacity and verification before starting. Keep the original card and another reliable backup for important media; format the card only after checking the copies.
 
-This is a **free beta** with an ad-hoc signature, without Apple Developer ID signing or notarization. Download only from [this repository's Releases](https://github.com/Sorasukiawa/shiguang/releases). Active ingest, file-copy, or archive tasks block installation of an update.
+This is a **free beta** with an ad-hoc signature, without Apple Developer ID signing or notarization. Download only from [this repository's Releases](https://github.com/Sorasukiawa/lightferry/releases). Active ingest, file-copy, or archive tasks block installation of an update.
 
 ## Current release · v0.2.2
 
@@ -52,7 +52,7 @@ This is a **free beta** with an ad-hoc signature, without Apple Developer ID sig
 - Confirmed reminders are not resent after clearing notifications or restarting; unknown outcomes pause automatic retries.
 - Related settings switches correctly respect their disabled state.
 
-[Full release notes](https://github.com/Sorasukiawa/shiguang/releases/tag/v0.2.2) · [All versions](./VERSIONS.md)
+[Full release notes](https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2) · [All versions](./VERSIONS.md)
 
 <details>
 <summary>Verification, storage, and network folders</summary>
@@ -65,7 +65,7 @@ This is a **free beta** with an ad-hoc signature, without Apple Developer ID sig
 
 ## Help and feedback
 
-[Website](https://getshiguang.pages.dev/) · [Guides](https://getshiguang.pages.dev/guides/) · [Report an issue](https://github.com/Sorasukiawa/shiguang/issues) · Private support: [support@lightferry.app](mailto:support@lightferry.app)
+[Website](https://getshiguang.pages.dev/) · [Guides](https://getshiguang.pages.dev/guides/) · [Report an issue](https://github.com/Sorasukiawa/lightferry/issues) · Private support: [support@lightferry.app](mailto:support@lightferry.app)
 
 Include the app version, macOS version and chip, source and destination formats, reproduction steps, and complete error text. Redact project names and paths in screenshots. **Do not upload original media or client information.**
 

@@ -1,8 +1,8 @@
-# 拾光 Shiguang v0.2.1 · 校验升级与任务报告
+# 光渡 Lightferry v0.2.1 · 校验升级与任务报告
 
 快速校验完整回读每份目标文件；完整校验还会独立重读来源。新增可筛选、导出的 HTML／PDF 任务报告，并改进慢盘预检响应。
 
-**[下载本版本 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/shiguang/releases/download/v0.2.1/Shiguang_0.2.1_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/shiguang/blob/main/VERSIONS.md)
+**[下载本版本 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/lightferry/releases/download/v0.2.1/Lightferry_0.2.1_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/lightferry/blob/main/VERSIONS.md)
 
 <strong>升级提示：</strong>公开 v0.2.0 可从设置检查更新；正在运行的拷卡、文件拷贝或归档任务会阻止安装。升级前请结束重要任务并保留备份。
 
@@ -38,7 +38,7 @@ NAS／SMB の切断後は復旧に時間がかかる場合があります。外�
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Sorasukiawa/shiguang/64ca6e5971d1245c2da1a4a3040bed1c13d0fee5/report-v0.2.1-synthetic.png" width="480" alt="v0.2.1 PDF 任务报告示例，全部为合成数据">
+<img src="https://raw.githubusercontent.com/Sorasukiawa/lightferry/64ca6e5971d1245c2da1a4a3040bed1c13d0fee5/report-v0.2.1-synthetic.png" width="480" alt="v0.2.1 PDF 任务报告示例，全部为合成数据">
 
 *报告示例；全部内容为合成数据。*
 
@@ -48,7 +48,7 @@ NAS／SMB の切断後は復旧に時間がかかる場合があります。外�
 
 ## 简体中文
 
-拾光 v0.2.1 继续免费内测。本版强化拷贝校验，并新增可查询、导出的任务报告。
+光渡 v0.2.1 继续免费内测。本版强化拷贝校验，并新增可查询、导出的任务报告。
 
 - <strong>校验更明确：</strong>快速校验会完整回读每份目标文件并比较 XXH64；完整校验还会独立重读源文件。设备无法绕开系统缓存时，结果会如实标明。
 - <strong>任务报告：</strong>拷卡、文件拷贝、项目素材导入、本地归档和网络归档的结果可按项目、日期、类型及状态筛选；可导出单任务或选中任务的离线 HTML、A4 多页 PDF。报告包含逐目标状态、可得的校验结果、失败信息与备注，支持四语言和隐藏完整路径。
@@ -60,7 +60,7 @@ NAS／SMB の切断後は復旧に時間がかかる場合があります。外�
 
 ## 繁體中文
 
-拾光 v0.2.1 繼續免費內測。本版強化複製驗證，並新增可查詢、匯出的工作報告。
+光渡 v0.2.1 繼續免費內測。本版強化複製驗證，並新增可查詢、匯出的工作報告。
 
 - <strong>驗證更明確：</strong>快速驗證會完整重讀每份目的地檔案並比對 XXH64；完整驗證還會另外重讀來源檔案。裝置無法繞過系統快取時，結果會如實標示。
 - <strong>工作報告：</strong>記憶卡轉存、檔案複製、專案素材匯入、本機封存與網路封存的結果，可依專案、日期、類型及狀態篩選；可將單一或選取的工作匯出為離線 HTML、A4 多頁 PDF。報告包含各目的地狀態、可取得的驗證結果、失敗資訊與備註，支援四種語言和隱藏完整路徑。
@@ -72,7 +72,7 @@ NAS／SMB の切断後は復旧に時間がかかる場合があります。外�
 
 ## English
 
-Shiguang v0.2.1 continues the free beta. This release strengthens copy verification and adds searchable, exportable task reports.
+Lightferry v0.2.1 continues the free beta. This release strengthens copy verification and adds searchable, exportable task reports.
 
 - **Clearer verification:** Quick verification fully rereads every destination file and compares XXH64 hashes. Full verification also rereads the source independently. Results disclose when a device cannot bypass the system cache.
 - **Task reports:** Filter camera-card offloads, file copies, project media imports, local archives, and network archives by project, date, type, and status. Export one or several selected tasks as offline HTML or multipage A4 PDF. Reports show each destination's status, available verification evidence, failures, and notes, with four-language support and an option to hide full paths.
@@ -84,7 +84,7 @@ Apple Silicon macOS only. Users of public v0.2.0 can check for updates in Settin
 
 ## 日本語
 
-拾光 v0.2.1 は無料ベータ版の更新です。コピーの検証を強化し、検索・書き出しができるタスクレポートを追加しました。
+光渡 v0.2.1 は無料ベータ版の更新です。コピーの検証を強化し、検索・書き出しができるタスクレポートを追加しました。
 
 - <strong>検証の明確化：</strong>高速検証では各保存先ファイルを最後まで読み直し、XXH64 を比較します。完全検証では元ファイルも別途読み直します。装置でシステムキャッシュを回避できない場合、そのことを結果に表示します。
 - <strong>タスクレポート：</strong>メモリーカードの取り込み、ファイルコピー、プロジェクトへの素材追加、ローカルアーカイブ、ネットワークアーカイブの結果を、プロジェクト・日付・種類・状態で絞り込めます。単一または選択した複数のタスクを、オフライン HTML または複数ページの A4 PDF に書き出せます。保存先ごとの状態、確認できた検証結果、失敗内容、メモを記録し、4 言語とフルパスの非表示に対応します。
@@ -98,6 +98,6 @@ Apple Silicon 搭載 macOS 専用です。公開版 v0.2.0 の利用者は設定
 
 ---
 
-<strong>安装与文件：</strong>本版仅提供 Apple Silicon macOS。DMG 用于手动安装；同页的 `Shiguang_aarch64.app.tar.gz`、`.sig` 和 `latest.json` 供应用内更新使用。本版为 ad-hoc 签名，未获 Apple Developer ID 签名或 Apple 公证。GitHub 自动生成的 Source code 归档只是公开资料，不含拾光 App 源码，也不是安装包。
+<strong>安装与文件：</strong>本版仅提供 Apple Silicon macOS。DMG 用于手动安装；同页的 `Lightferry_aarch64.app.tar.gz`、`.sig` 和 `latest.json` 供应用内更新使用。本版为 ad-hoc 签名，未获 Apple Developer ID 签名或 Apple 公证。GitHub 自动生成的 Source code 归档只是公开资料，不含光渡 App 源码，也不是安装包。
 
-重要素材请保留原始卡和另一份可靠备份，确认副本后再格式化。问题请提交至 [Issues](https://github.com/Sorasukiawa/shiguang/issues)，不要上传原始素材、客户资料或私密路径。
+重要素材请保留原始卡和另一份可靠备份，确认副本后再格式化。问题请提交至 [Issues](https://github.com/Sorasukiawa/lightferry/issues)，不要上传原始素材、客户资料或私密路径。

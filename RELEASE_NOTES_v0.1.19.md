@@ -1,8 +1,8 @@
-# 拾光 Shiguang v0.1.19 · 编辑、加载与动效改进
+# 光渡 Lightferry v0.1.19 · 编辑、加载与动效改进
 
 **历史版本 / Historical release** · 改善预设编辑草稿恢复、加载失败重试和界面动效；设置页增加官网与指南入口。NAS 断连与第三方同步目录的既有边界仍在。
 
-**[下载本版本 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/shiguang/releases/download/v0.1.19/Shiguang_0.1.19_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/shiguang/blob/main/VERSIONS.md)
+**[下载本版本 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/lightferry/releases/download/v0.1.19/Lightferry_0.1.19_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/lightferry/blob/main/VERSIONS.md)
 
 <strong>历史版本提示：</strong>本页下载固定为此版本。若已安装的旧版没有更新通道，请结束任务、退出 App 后用目标版本 DMG 手动升级。
 
@@ -36,7 +36,7 @@ Apple Silicon macOS 向けの無料ベータ版のみです。ad-hoc 署名で�
 
 ## 简体中文
 
-拾光 v0.1.19 继续免费内测，本次重点改善经典版的编辑、加载与动效体验。
+光渡 v0.1.19 继续免费内测，本次重点改善经典版的编辑、加载与动效体验。
 
 - 改善预设编辑时的输入焦点与草稿恢复，切换页面或重新打开后可继续编辑；冲突草稿可另存为新预设。
 - 设置与拷卡初始化失败时提供明确反馈和重试入口，补齐四语言错误说明。
@@ -50,7 +50,7 @@ Apple Silicon macOS 向けの無料ベータ版のみです。ad-hoc 署名で�
 
 ## 繁體中文
 
-拾光 v0.1.19 繼續免費內測，改善經典版的編輯、載入與動效體驗。
+光渡 v0.1.19 繼續免費內測，改善經典版的編輯、載入與動效體驗。
 
 - 改善預設編輯的輸入焦點與草稿復原；切換頁面後可繼續編輯，衝突草稿可另存新預設。
 - 設定與轉存初始化失敗時提供清楚回饋及重試入口，補齊四語言錯誤說明。
@@ -64,7 +64,7 @@ Apple Silicon macOS 向けの無料ベータ版のみです。ad-hoc 署名で�
 
 ## English
 
-Shiguang v0.1.19 continues the free beta, improving editing, loading, and motion in the classic interface.
+Lightferry v0.1.19 continues the free beta, improving editing, loading, and motion in the classic interface.
 
 - Preset editing keeps input focus and restores drafts across navigation and reopening. Conflicting drafts can be saved as new presets.
 - Settings and ingest initialization offer clearer failure feedback and retry actions, with error messages in all four languages.
@@ -78,7 +78,7 @@ The app remains ad-hoc signed, without Apple Developer ID signing or notarizatio
 
 ## 日本語
 
-拾光 v0.1.19 は無料ベータ版を継続し、クラシック版の編集・読み込み・アニメーションを改善しました。
+光渡 v0.1.19 は無料ベータ版を継続し、クラシック版の編集・読み込み・アニメーションを改善しました。
 
 - プリセット編集の入力フォーカスと下書き復元を改善。画面移動後も編集を続けられ、競合した下書きは新しいプリセットとして保存できます。
 - 設定と取り込みの初期読み込みに失敗した場合の表示と再試行を改善し、4言語のエラー説明を追加しました。
@@ -94,6 +94,6 @@ ad-hoc 署名を使用し、Apple Developer ID 署名・Apple 公証はありま
 
 ---
 
-<strong>安装与文件：</strong>本版仅提供 Apple Silicon macOS。DMG 用于手动安装；同页的 `Shiguang_aarch64.app.tar.gz`、`.sig` 和 `latest.json` 供应用内更新使用。本版为 ad-hoc 签名，未获 Apple Developer ID 签名或 Apple 公证。GitHub 自动生成的 Source code 归档只是公开资料，不含拾光 App 源码，也不是安装包。
+<strong>安装与文件：</strong>本版仅提供 Apple Silicon macOS。DMG 用于手动安装；同页的 `Lightferry_aarch64.app.tar.gz`、`.sig` 和 `latest.json` 供应用内更新使用。本版为 ad-hoc 签名，未获 Apple Developer ID 签名或 Apple 公证。GitHub 自动生成的 Source code 归档只是公开资料，不含光渡 App 源码，也不是安装包。
 
-重要素材请保留原始卡和另一份可靠备份，确认副本后再格式化。问题请提交至 [Issues](https://github.com/Sorasukiawa/shiguang/issues)，不要上传原始素材、客户资料或私密路径。
+重要素材请保留原始卡和另一份可靠备份，确认副本后再格式化。问题请提交至 [Issues](https://github.com/Sorasukiawa/lightferry/issues)，不要上传原始素材、客户资料或私密路径。

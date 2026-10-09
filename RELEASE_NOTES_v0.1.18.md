@@ -1,8 +1,8 @@
-# 拾光 Shiguang v0.1.18 · 任务恢复与更新体验
+# 光渡 Lightferry v0.1.18 · 任务恢复与更新体验
 
 **历史版本 / Historical release** · 加强项目读取、预设保护、NAS 归档任务记录、MHL 与中断恢复；更新下载停滞可超时返回。公开 v0.1.16 → v0.1.18 已完成应用内升级验收。
 
-**[下载本版本 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/shiguang/releases/download/v0.1.18/Shiguang_0.1.18_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/shiguang/blob/main/VERSIONS.md)
+**[下载本版本 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/lightferry/releases/download/v0.1.18/Lightferry_0.1.18_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/lightferry/blob/main/VERSIONS.md)
 
 <strong>升级提示：</strong>已安装公开 v0.1.17 的用户不能从设置页直接升级，须结束任务、退出 App 后使用本版 DMG；公开 v0.1.16 → v0.1.18 的应用内升级已验收。
 
@@ -36,7 +36,7 @@ Apple Silicon macOS 向けの無料ベータ版のみです。ad-hoc 署名で�
 
 ## 简体中文
 
-拾光是一款面向摄影师与影像团队的本地拷卡、双备份、校验与项目归档工具。v0.1.18 继续免费内测，重点改进任务恢复、项目读取、预设保护和更新体验。
+光渡是一款面向摄影师与影像团队的本地拷卡、双备份、校验与项目归档工具。v0.1.18 继续免费内测，重点改进任务恢复、项目读取、预设保护和更新体验。
 
 ### 本次更新
 
@@ -49,7 +49,7 @@ Apple Silicon macOS 向けの無料ベータ版のみです。ad-hoc 署名で�
 
 ### 升级与当前范围
 
-已完成公开 v0.1.16 → v0.1.18 的设置页下载、安装和自动重启验收。公开 v0.1.17 缺少更新通道，无法从设置页升级，请结束任务并退出拾光后，使用本页 DMG 替换旧版。0.1.18 已接入更新通道。项目记录、设置和自定义预设在本次升级中保持；内置视频预设补齐照片素材路由。全新 Mac 的首次安装仍待验收。
+已完成公开 v0.1.16 → v0.1.18 的设置页下载、安装和自动重启验收。公开 v0.1.17 缺少更新通道，无法从设置页升级，请结束任务并退出光渡后，使用本页 DMG 替换旧版。0.1.18 已接入更新通道。项目记录、设置和自定义预设在本次升级中保持；内置视频预设补齐照片素材路由。全新 Mac 的首次安装仍待验收。
 
 当前仅提供 Apple Silicon Mac 版本，继续使用 ad-hoc 签名，尚无 Apple Developer ID 签名或 Apple 公证。Intel Mac 和 Windows 版尚未提供。若系统拦截首次打开，可在「系统设置 → 隐私与安全性」确认应用后选择「仍要打开」。
 
@@ -57,7 +57,7 @@ NAS 已验证部分正常归档与中断恢复场景，但仍观察到 SMB 断�
 
 ## 繁體中文
 
-拾光是一套面向攝影師與影像團隊的本機素材轉存、二重備份、檢驗與專案封存工具。v0.1.18 繼續免費內測，著重改善工作復原、專案讀取、預設保護與更新體驗。
+光渡是一套面向攝影師與影像團隊的本機素材轉存、二重備份、檢驗與專案封存工具。v0.1.18 繼續免費內測，著重改善工作復原、專案讀取、預設保護與更新體驗。
 
 ### 本次更新
 
@@ -70,7 +70,7 @@ NAS 已验证部分正常归档与中断恢复场景，但仍观察到 SMB 断�
 
 ### 升級與目前範圍
 
-已完成公開 v0.1.16 → v0.1.18 的設定頁下載、安裝與自動重新啟動驗收。公開 v0.1.17 缺少更新通道，無法從設定頁升級，請結束工作並退出拾光後，使用本頁 DMG 取代舊版。0.1.18 已接入更新通道。專案記錄、設定與自訂預設在此次升級中保持；內建影片預設補齊照片素材路由。全新 Mac 的首次安裝仍待驗收。
+已完成公開 v0.1.16 → v0.1.18 的設定頁下載、安裝與自動重新啟動驗收。公開 v0.1.17 缺少更新通道，無法從設定頁升級，請結束工作並退出光渡後，使用本頁 DMG 取代舊版。0.1.18 已接入更新通道。專案記錄、設定與自訂預設在此次升級中保持；內建影片預設補齊照片素材路由。全新 Mac 的首次安裝仍待驗收。
 
 目前只提供 Apple Silicon Mac 版本，仍使用 ad-hoc 簽署，尚無 Apple Developer ID 簽署或 Apple 公證。Intel Mac 與 Windows 版尚未提供。若系統阻擋首次開啟，可在「系統設定 → 隱私權與安全性」確認應用程式後選擇「強制打開」。
 
@@ -78,7 +78,7 @@ NAS 已驗證部分正常封存與中斷復原情境，但仍觀察到 SMB 斷�
 
 ## English
 
-Shiguang is a local media offload, dual-destination backup, verification, and project-archive tool for photographers and production teams. v0.1.18 continues the free beta, with improvements to recovery, project loading, preset protection, and updates.
+Lightferry is a local media offload, dual-destination backup, verification, and project-archive tool for photographers and production teams. v0.1.18 continues the free beta, with improvements to recovery, project loading, preset protection, and updates.
 
 ### What changed
 
@@ -91,7 +91,7 @@ Shiguang is a local media offload, dual-destination backup, verification, and pr
 
 ### Upgrade and current scope
 
-The public v0.1.16 → v0.1.18 upgrade passed download, installation, and automatic restart checks from Settings on this Mac. The public v0.1.17 build has no update channel and cannot upgrade from Settings: finish running jobs, quit Shiguang, and replace it using this Release’s DMG. v0.1.18 includes the update channel. Project records, settings, and custom presets were preserved in this upgrade; the built-in video preset gained its photo-media route. First installation on a clean Mac remains unverified.
+The public v0.1.16 → v0.1.18 upgrade passed download, installation, and automatic restart checks from Settings on this Mac. The public v0.1.17 build has no update channel and cannot upgrade from Settings: finish running jobs, quit Lightferry, and replace it using this Release’s DMG. v0.1.18 includes the update channel. Project records, settings, and custom presets were preserved in this upgrade; the built-in video preset gained its photo-media route. First installation on a clean Mac remains unverified.
 
 Only Apple Silicon Macs are supported by this release. The app uses ad-hoc signing, without an Apple Developer ID signature or Apple notarization. Intel Mac and Windows builds are not available. If macOS blocks the first launch, confirm the app in System Settings → Privacy & Security and choose Open Anyway.
 
@@ -99,7 +99,7 @@ Some normal NAS archive and interruption-recovery scenarios have passed, but SMB
 
 ## 日本語
 
-拾光は、フォトグラファーと制作チーム向けの、ローカルで動作する素材取り込み・二重バックアップ・検証・プロジェクトアーカイブツールです。v0.1.18 も無料ベータ版として、タスク復旧、プロジェクト読み込み、プリセット保護、更新操作を改善しました。
+光渡は、フォトグラファーと制作チーム向けの、ローカルで動作する素材取り込み・二重バックアップ・検証・プロジェクトアーカイブツールです。v0.1.18 も無料ベータ版として、タスク復旧、プロジェクト読み込み、プリセット保護、更新操作を改善しました。
 
 ### 更新内容
 
@@ -112,7 +112,7 @@ Some normal NAS archive and interruption-recovery scenarios have passed, but SMB
 
 ### アップグレードと現在の範囲
 
-公開版 v0.1.16 → v0.1.18 について、この Mac の設定画面からダウンロード・インストール・自動再起動を確認しました。公開版 v0.1.17 は更新先が未設定のため、設定画面からは更新できません。タスクと拾光を終了し、この Release の DMG で旧版を置き換えてください。0.1.18 には更新先を設定済みです。プロジェクト記録・設定・カスタムプリセットは保持され、内蔵の動画プリセットには写真素材の保存先が追加されました。新しい Mac への初回インストールは未検証です。
+公開版 v0.1.16 → v0.1.18 について、この Mac の設定画面からダウンロード・インストール・自動再起動を確認しました。公開版 v0.1.17 は更新先が未設定のため、設定画面からは更新できません。タスクと光渡を終了し、この Release の DMG で旧版を置き換えてください。0.1.18 には更新先を設定済みです。プロジェクト記録・設定・カスタムプリセットは保持され、内蔵の動画プリセットには写真素材の保存先が追加されました。新しい Mac への初回インストールは未検証です。
 
 本リリースは Apple Silicon Mac 専用です。ad-hoc 署名を使用しており、Apple Developer ID 署名および Apple 公証はありません。Intel Mac 版と Windows 版は提供していません。初回起動がブロックされた場合は、「システム設定 → プライバシーとセキュリティ」で対象を確認し、「そのまま開く」を選択できます。
 
@@ -126,6 +126,6 @@ Please report problems through this repository's Issues. Include the app version
 
 ---
 
-<strong>安装与文件：</strong>本版仅提供 Apple Silicon macOS。DMG 用于手动安装；同页的 `Shiguang_aarch64.app.tar.gz`、`.sig` 和 `latest.json` 供应用内更新使用。本版为 ad-hoc 签名，未获 Apple Developer ID 签名或 Apple 公证。GitHub 自动生成的 Source code 归档只是公开资料，不含拾光 App 源码，也不是安装包。
+<strong>安装与文件：</strong>本版仅提供 Apple Silicon macOS。DMG 用于手动安装；同页的 `Lightferry_aarch64.app.tar.gz`、`.sig` 和 `latest.json` 供应用内更新使用。本版为 ad-hoc 签名，未获 Apple Developer ID 签名或 Apple 公证。GitHub 自动生成的 Source code 归档只是公开资料，不含光渡 App 源码，也不是安装包。
 
-重要素材请保留原始卡和另一份可靠备份，确认副本后再格式化。问题请提交至 [Issues](https://github.com/Sorasukiawa/shiguang/issues)，不要上传原始素材、客户资料或私密路径。
+重要素材请保留原始卡和另一份可靠备份，确认副本后再格式化。问题请提交至 [Issues](https://github.com/Sorasukiawa/lightferry/issues)，不要上传原始素材、客户资料或私密路径。

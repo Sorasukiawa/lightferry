@@ -1,10 +1,10 @@
-# 拾光 Shiguang v0.1.17 · 品牌更新与拷卡反馈
+# 光渡 Lightferry v0.1.17 · 品牌更新与拷卡反馈
 
 **历史版本 / Historical release** · 统一暖金色品牌图标；完整校验失败会写入可读报告，加强来源路径与卷号保护，改进项目选择与归档反馈。
 
-**[下载本版本 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/shiguang/releases/download/v0.1.17/Shiguang_0.1.17_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/shiguang/blob/main/VERSIONS.md)
+**[下载本版本 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/lightferry/releases/download/v0.1.17/Lightferry_0.1.17_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/lightferry/blob/main/VERSIONS.md)
 
-<strong>升级例外 / Upgrade exception / 升級例外 / 更新時の注意：</strong>公开 v0.1.17 安装包未配置更新通道。已安装该版的用户须结束任务、退出拾光，再用目标版本的 DMG 手动替换；不要依赖设置页检查更新。 / The public v0.1.17 build has no updater endpoint. Quit after finishing tasks and install the target version's DMG manually. / 公開 v0.1.17 沒有更新通道，請結束工作、退出 App 後使用目標版本 DMG 手動升級。 / 公開 v0.1.17 には更新先がないため、作業終了後にアプリを終了し、目的のバージョンの DMG で手動更新してください。
+<strong>升级例外 / Upgrade exception / 升級例外 / 更新時の注意：</strong>公开 v0.1.17 安装包未配置更新通道。已安装该版的用户须结束任务、退出光渡，再用目标版本的 DMG 手动替换；不要依赖设置页检查更新。 / The public v0.1.17 build has no updater endpoint. Quit after finishing tasks and install the target version's DMG manually. / 公開 v0.1.17 沒有更新通道，請結束工作、退出 App 後使用目標版本 DMG 手動升級。 / 公開 v0.1.17 には更新先がないため、作業終了後にアプリを終了し、目的のバージョンの DMG で手動更新してください。
 
 <details><summary>繁體中文 · 品牌更新與轉存回饋</summary>
 
@@ -42,12 +42,12 @@ Apple Silicon macOS 向けの無料ベータ版のみです。ad-hoc 署名で�
 
 ## 简体中文
 
-拾光是一款面向摄影师、摄像师、个人创作者与摄影摄像团队的本地拷卡、双备份、校验与项目归档工具。
+光渡是一款面向摄影师、摄像师、个人创作者与摄影摄像团队的本地拷卡、双备份、校验与项目归档工具。
 
 v0.1.17 统一了新的品牌 Logo，并修复了多项可能影响拷卡判断、报告可信度与归档反馈的问题。
 
 > [!IMPORTANT]
-> 拾光目前仍是免费内测版。处理重要素材时，请保留原始存储卡，并确认至少还有一份可靠备份后再格式化卡片。
+> 光渡目前仍是免费内测版。处理重要素材时，请保留原始存储卡，并确认至少还有一份可靠备份后再格式化卡片。
 
 ### 本次更新
 
@@ -60,20 +60,20 @@ v0.1.17 统一了新的品牌 Logo，并修复了多项可能影响拷卡判断�
 
 ### 升级与首次打开
 
-如果已经安装 v0.1.16，可以在拾光“设置”页面检查更新。也可以退出拾光，从本 Release 下载 DMG，将新版“拾光”拖入“Applications / 应用程序”并替换旧版。已有项目记录和设置会继续保留。
+如果已经安装 v0.1.16，可以在光渡“设置”页面检查更新。也可以退出光渡，从本 Release 下载 DMG，将新版“光渡”拖入“Applications / 应用程序”并替换旧版。已有项目记录和设置会继续保留。
 
-当前公开安装包仅适用于搭载 Apple M 系列芯片的 Mac。本免费内测包使用 ad-hoc 签名，尚未使用 Apple Developer ID 签名，也未经过 Apple 公证；如果 macOS 拦截首次启动，请前往“系统设置 → 隐私与安全性”，确认应用为“拾光”后选择“仍要打开”。请勿关闭 Gatekeeper。
+当前公开安装包仅适用于搭载 Apple M 系列芯片的 Mac。本免费内测包使用 ad-hoc 签名，尚未使用 Apple Developer ID 签名，也未经过 Apple 公证；如果 macOS 拦截首次启动，请前往“系统设置 → 隐私与安全性”，确认应用为“光渡”后选择“仍要打开”。请勿关闭 Gatekeeper。
 
 Intel Mac 与 Windows 版尚未提供公开下载。
 
 ## 繁體中文
 
-拾光是一套為攝影師、影像工作者、獨立創作者與影像團隊打造的本機素材轉存、二重備份、檢驗與專案封存工具。
+光渡是一套為攝影師、影像工作者、獨立創作者與影像團隊打造的本機素材轉存、二重備份、檢驗與專案封存工具。
 
 v0.1.17 統一了新的品牌 Logo，並修正多項可能影響轉存判斷、報告可信度與封存回饋的問題。
 
 > [!IMPORTANT]
-> 拾光目前仍是免費內測版。處理重要素材時，請保留原始記憶卡，並在確認至少還有一份可靠備份後才格式化卡片。
+> 光渡目前仍是免費內測版。處理重要素材時，請保留原始記憶卡，並在確認至少還有一份可靠備份後才格式化卡片。
 
 ### 本次更新
 
@@ -86,24 +86,24 @@ v0.1.17 統一了新的品牌 Logo，並修正多項可能影響轉存判斷、�
 
 ### 升級與首次開啟
 
-如果已安裝 v0.1.16，可以在拾光「設定」頁面檢查更新。也可以結束拾光，從本 Release 下載 DMG，將新版「拾光」拖曳到「Applications / 應用程式」並取代舊版。既有專案記錄與設定會繼續保留。
+如果已安裝 v0.1.16，可以在光渡「設定」頁面檢查更新。也可以結束光渡，從本 Release 下載 DMG，將新版「光渡」拖曳到「Applications / 應用程式」並取代舊版。既有專案記錄與設定會繼續保留。
 
-目前公開安裝檔只適用於搭載 Apple M 系列晶片的 Mac。本免費內測版使用 ad-hoc 簽署，尚未使用 Apple Developer ID 簽署，也尚未通過 Apple 公證；若 macOS 阻擋首次開啟，請前往「系統設定 → 隱私權與安全性」，確認應用程式為「拾光」後選擇「強制打開」。請勿關閉 Gatekeeper。
+目前公開安裝檔只適用於搭載 Apple M 系列晶片的 Mac。本免費內測版使用 ad-hoc 簽署，尚未使用 Apple Developer ID 簽署，也尚未通過 Apple 公證；若 macOS 阻擋首次開啟，請前往「系統設定 → 隱私權與安全性」，確認應用程式為「光渡」後選擇「強制打開」。請勿關閉 Gatekeeper。
 
 Intel Mac 與 Windows 版尚未提供公開下載。
 
 ## English
 
-Shiguang is a local-first media offload, dual-destination backup, verification, and project-archive tool for photographers, filmmakers, independent creators, and production teams.
+Lightferry is a local-first media offload, dual-destination backup, verification, and project-archive tool for photographers, filmmakers, independent creators, and production teams.
 
 v0.1.17 introduces the unified new brand mark and fixes several issues that could affect offload decisions, report trustworthiness, and archive feedback.
 
 > [!IMPORTANT]
-> Shiguang is still a free beta. Keep the original memory card and confirm at least one other known-good backup before formatting it.
+> Lightferry is still a free beta. Keep the original memory card and confirm at least one other known-good backup before formatting it.
 
 ### What changed
 
-- Shiguang now uses the new warm-gold “captured light” mark across the app, DMG, and public download page.
+- Lightferry now uses the new warm-gold “captured light” mark across the app, DMG, and public download page.
 - Full-verification issues now appear in the human-readable report, so a failed job cannot still look successful there.
 - Stricter source-card safeguards recheck that media still belongs to the selected card before opening or retrying it, preventing accidental reads outside the card.
 - When many cards from one camera position exhaust the numbered folders, the next card uses a separate safe folder instead of being mixed into an existing one.
@@ -112,20 +112,20 @@ v0.1.17 introduces the unified new brand mark and fixes several issues that coul
 
 ### Upgrade and first launch
 
-If v0.1.16 is already installed, check for updates from Shiguang Settings. You can also quit Shiguang, download the DMG from this Release, and replace the old app in Applications. Existing project records and settings are preserved.
+If v0.1.16 is already installed, check for updates from Lightferry Settings. You can also quit Lightferry, download the DMG from this Release, and replace the old app in Applications. Existing project records and settings are preserved.
 
-The public installer is available only for Apple Silicon Macs with an Apple M-series chip. This free beta uses ad-hoc signing; it is not signed with an Apple Developer ID and is not notarized by Apple. If macOS blocks the first launch, open System Settings → Privacy & Security, confirm the app is Shiguang, and choose Open Anyway. Do not disable Gatekeeper.
+The public installer is available only for Apple Silicon Macs with an Apple M-series chip. This free beta uses ad-hoc signing; it is not signed with an Apple Developer ID and is not notarized by Apple. If macOS blocks the first launch, open System Settings → Privacy & Security, confirm the app is Lightferry, and choose Open Anyway. Do not disable Gatekeeper.
 
 Intel Mac and Windows builds are not publicly available.
 
 ## 日本語
 
-拾光は、フォトグラファー、映像制作者、個人クリエイター、制作チーム向けの、ローカルで動作するメディア取り込み・二重バックアップ・検証・プロジェクトアーカイブツールです。
+光渡は、フォトグラファー、映像制作者、個人クリエイター、制作チーム向けの、ローカルで動作するメディア取り込み・二重バックアップ・検証・プロジェクトアーカイブツールです。
 
 v0.1.17 では新しいブランドロゴを統一し、取り込み判断、レポートの信頼性、アーカイブの進捗表示に関わる複数の問題を修正しました。
 
 > [!IMPORTANT]
-> 拾光は引き続き無料ベータ版です。元のメモリーカードを保管し、別の信頼できるバックアップが少なくとも1つ使用できることを確認してから、カードを初期化してください。
+> 光渡は引き続き無料ベータ版です。元のメモリーカードを保管し、別の信頼できるバックアップが少なくとも1つ使用できることを確認してから、カードを初期化してください。
 
 ### 更新内容
 
@@ -138,22 +138,22 @@ v0.1.17 では新しいブランドロゴを統一し、取り込み判断、レ
 
 ### アップグレードと初回起動
 
-v0.1.16 がインストール済みの場合は、拾光の「設定」からアップデートを確認できます。拾光を終了し、この Release から DMG をダウンロードして、Applications 内の旧版と置き換えることもできます。既存のプロジェクト記録と設定は保持されます。
+v0.1.16 がインストール済みの場合は、光渡の「設定」からアップデートを確認できます。光渡を終了し、この Release から DMG をダウンロードして、Applications 内の旧版と置き換えることもできます。既存のプロジェクト記録と設定は保持されます。
 
-公開インストーラーは Apple M シリーズチップを搭載した Apple Silicon Mac 専用です。この無料ベータ版は ad-hoc 署名で、Apple Developer ID による署名も Apple の公証もありません。macOS が初回起動をブロックした場合は、「システム設定 → プライバシーとセキュリティ」で対象が拾光であることを確認し、「そのまま開く」を選んでください。Gatekeeper は無効にしないでください。
+公開インストーラーは Apple M シリーズチップを搭載した Apple Silicon Mac 専用です。この無料ベータ版は ad-hoc 署名で、Apple Developer ID による署名も Apple の公証もありません。macOS が初回起動をブロックした場合は、「システム設定 → プライバシーとセキュリティ」で対象が光渡であることを確認し、「そのまま開く」を選んでください。Gatekeeper は無効にしないでください。
 
 Intel Mac 版と Windows 版は公開されていません。
 
 ---
 
-If you encounter a problem, please use this repository's Issues. Include the Shiguang version, macOS version, Mac chip, reproducible steps, and complete error text. Redact client names, project names, local paths, and other sensitive information before posting.
+If you encounter a problem, please use this repository's Issues. Include the Lightferry version, macOS version, Mac chip, reproducible steps, and complete error text. Redact client names, project names, local paths, and other sensitive information before posting.
 
-This public repository provides official installers, release notes, and issue tracking. It does not contain Shiguang source code.
+This public repository provides official installers, release notes, and issue tracking. It does not contain Lightferry source code.
 
 </details>
 
 ---
 
-<strong>安装与文件：</strong>本版仅提供 Apple Silicon macOS。DMG 用于手动安装；同页的 `Shiguang_aarch64.app.tar.gz`、`.sig` 和 `latest.json` 供应用内更新使用。本版为 ad-hoc 签名，未获 Apple Developer ID 签名或 Apple 公证。GitHub 自动生成的 Source code 归档只是公开资料，不含拾光 App 源码，也不是安装包。
+<strong>安装与文件：</strong>本版仅提供 Apple Silicon macOS。DMG 用于手动安装；同页的 `Lightferry_aarch64.app.tar.gz`、`.sig` 和 `latest.json` 供应用内更新使用。本版为 ad-hoc 签名，未获 Apple Developer ID 签名或 Apple 公证。GitHub 自动生成的 Source code 归档只是公开资料，不含光渡 App 源码，也不是安装包。
 
-重要素材请保留原始卡和另一份可靠备份，确认副本后再格式化。问题请提交至 [Issues](https://github.com/Sorasukiawa/shiguang/issues)，不要上传原始素材、客户资料或私密路径。
+重要素材请保留原始卡和另一份可靠备份，确认副本后再格式化。问题请提交至 [Issues](https://github.com/Sorasukiawa/lightferry/issues)，不要上传原始素材、客户资料或私密路径。

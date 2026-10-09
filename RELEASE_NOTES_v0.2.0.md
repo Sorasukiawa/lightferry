@@ -1,8 +1,8 @@
-# 拾光 Shiguang v0.2.0 · 文件拷贝与项目素材导入
+# 光渡 Lightferry v0.2.0 · 文件拷贝与项目素材导入
 
 **历史版本 / Historical release** · 新增文件与文件夹多目标拷贝、Finder 拖入及项目素材导入；保留目录层级，提供空间预检、校验、逐目标结果与中断恢复。
 
-**[下载本版本 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/shiguang/releases/download/v0.2.0/Shiguang_0.2.0_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/shiguang/blob/main/VERSIONS.md)
+**[下载本版本 DMG · Apple Silicon Mac](https://github.com/Sorasukiawa/lightferry/releases/download/v0.2.0/Lightferry_0.2.0_aarch64.dmg)** · [安装指南](https://getshiguang.pages.dev/guides/) · [全部版本](https://github.com/Sorasukiawa/lightferry/blob/main/VERSIONS.md)
 
 <strong>历史版本提示：</strong>本页下载固定为此版本。若已安装的旧版没有更新通道，请结束任务、退出 App 后用目标版本 DMG 手动升级。
 
@@ -30,7 +30,7 @@ Apple Silicon macOS 向けの無料ベータ版のみです。ad-hoc 署名で�
 
 </details>
 
-![v0.2.0 文件拷贝界面演示，使用示例路径与文件](https://raw.githubusercontent.com/Sorasukiawa/shiguang/64ca6e5971d1245c2da1a4a3040bed1c13d0fee5/file-copy-v0.2.0-demo.png)
+![v0.2.0 文件拷贝界面演示，使用示例路径与文件](https://raw.githubusercontent.com/Sorasukiawa/lightferry/64ca6e5971d1245c2da1a4a3040bed1c13d0fee5/file-copy-v0.2.0-demo.png)
 
 *界面流程演示；示例路径与文件。*
 
@@ -40,7 +40,7 @@ Apple Silicon macOS 向けの無料ベータ版のみです。ad-hoc 署名で�
 
 ## 简体中文
 
-拾光 v0.2.0 是一次面向日常素材流转的大版本更新。除了原有的相机卡拷卡流程，现在可以直接拷贝任意文件和文件夹，也可以把已有素材导入指定项目；这一整套新流程继续遵循“不覆盖已有文件、先检查再写入、结果可恢复”的原则。
+光渡 v0.2.0 是一次面向日常素材流转的大版本更新。除了原有的相机卡拷卡流程，现在可以直接拷贝任意文件和文件夹，也可以把已有素材导入指定项目；这一整套新流程继续遵循“不覆盖已有文件、先检查再写入、结果可恢复”的原则。
 
 ### 新增：文件拷贝与项目素材导入
 
@@ -74,7 +74,7 @@ Apple Silicon macOS 向けの無料ベータ版のみです。ad-hoc 署名で�
 
 ## 繁體中文
 
-拾光 v0.2.0 是一次面向日常素材流轉的大版本更新。除了原有的記憶卡轉存流程，現在可以直接複製任意檔案與資料夾，也可以把既有素材匯入指定專案；整套新流程延續「不覆寫既有檔案、先檢查再寫入、結果可復原」的原則。
+光渡 v0.2.0 是一次面向日常素材流轉的大版本更新。除了原有的記憶卡轉存流程，現在可以直接複製任意檔案與資料夾，也可以把既有素材匯入指定專案；整套新流程延續「不覆寫既有檔案、先檢查再寫入、結果可復原」的原則。
 
 ### 新增：檔案複製與專案素材匯入
 
@@ -108,13 +108,13 @@ Apple Silicon macOS 向けの無料ベータ版のみです。ad-hoc 署名で�
 
 ## English
 
-Shiguang v0.2.0 is a major update for everyday media movement. In addition to the existing camera-card offload workflow, you can now copy arbitrary files and folders or import existing media into a project. The new workflows retain Shiguang's core rules: never overwrite an existing file, validate the plan before writing, and preserve enough state to recover safely.
+Lightferry v0.2.0 is a major update for everyday media movement. In addition to the existing camera-card offload workflow, you can now copy arbitrary files and folders or import existing media into a project. The new workflows retain Lightferry's core rules: never overwrite an existing file, validate the plan before writing, and preserve enough state to recover safely.
 
 ### New: file copy and project media import
 
 - A new **File Copy** page accepts files and folders selected in the app or dropped from Finder, then copies them to one or more destinations.
 - Project media import is available from project cards, project details, and the import dialog. Photos, video, audio, project files, and other categories can be mapped to project folders.
-- Folder hierarchy, hidden files, and empty directories are preserved. Before starting, Shiguang shows source details, file count, total size, destination capacity, and the selected verification mode.
+- Folder hierarchy, hidden files, and empty directories are preserved. Before starting, Lightferry shows source details, file count, total size, destination capacity, and the selected verification mode.
 - Choose no verification, quick verification, or full verification. Full verification rereads every copy and compares its XXH64 value with the source hash calculated during copying.
 - Transfers remain visible while you move between pages. You can inspect progress and failed files, open the destination, and retry only unfinished files or copies.
 
@@ -136,13 +136,13 @@ Shiguang v0.2.0 is a major update for everyday media movement. In addition to th
 
 ### Upgrade and support scope
 
-Apple Silicon macOS only. Public v0.1.19 users can check for updates in Settings. Shiguang will not install an update while an offload, file copy, or archive is running. Finish important jobs and keep the original card plus another reliable backup before upgrading.
+Apple Silicon macOS only. Public v0.1.19 users can check for updates in Settings. Lightferry will not install an update while an offload, file copy, or archive is running. Finish important jobs and keep the original card plus another reliable backup before upgrading.
 
 This build remains ad-hoc signed and is not signed with an Apple Developer ID or notarized by Apple. On first launch, macOS may require **System Settings → Privacy & Security → Open Anyway**. Validation for this release includes synthetic files, isolated databases, native Finder drag and drop, and forced disconnection of APFS disk images. It does not establish compatibility with every physical USB device, NAS failure mode, or third-party sync service.
 
 ## 日本語
 
-拾光 v0.2.0 は、日常的な素材移動のための大型アップデートです。従来のメモリーカード取り込みに加え、任意のファイルやフォルダーのコピー、既存素材のプロジェクトへの取り込みに対応しました。新しい処理も「既存ファイルを上書きしない」「書き込み前に計画を確認する」「安全に復旧できる状態を残す」という原則に従います。
+光渡 v0.2.0 は、日常的な素材移動のための大型アップデートです。従来のメモリーカード取り込みに加え、任意のファイルやフォルダーのコピー、既存素材のプロジェクトへの取り込みに対応しました。新しい処理も「既存ファイルを上書きしない」「書き込み前に計画を確認する」「安全に復旧できる状態を残す」という原則に従います。
 
 ### 新機能：ファイルコピーとプロジェクト素材の取り込み
 
@@ -178,6 +178,6 @@ Apple Silicon macOS 専用です。公開版 v0.1.19 は設定から更新を確
 
 ---
 
-<strong>安装与文件：</strong>本版仅提供 Apple Silicon macOS。DMG 用于手动安装；同页的 `Shiguang_aarch64.app.tar.gz`、`.sig` 和 `latest.json` 供应用内更新使用。本版为 ad-hoc 签名，未获 Apple Developer ID 签名或 Apple 公证。GitHub 自动生成的 Source code 归档只是公开资料，不含拾光 App 源码，也不是安装包。
+<strong>安装与文件：</strong>本版仅提供 Apple Silicon macOS。DMG 用于手动安装；同页的 `Lightferry_aarch64.app.tar.gz`、`.sig` 和 `latest.json` 供应用内更新使用。本版为 ad-hoc 签名，未获 Apple Developer ID 签名或 Apple 公证。GitHub 自动生成的 Source code 归档只是公开资料，不含光渡 App 源码，也不是安装包。
 
-重要素材请保留原始卡和另一份可靠备份，确认副本后再格式化。问题请提交至 [Issues](https://github.com/Sorasukiawa/shiguang/issues)，不要上传原始素材、客户资料或私密路径。
+重要素材请保留原始卡和另一份可靠备份，确认副本后再格式化。问题请提交至 [Issues](https://github.com/Sorasukiawa/lightferry/issues)，不要上传原始素材、客户资料或私密路径。
