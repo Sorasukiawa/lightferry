@@ -14,7 +14,7 @@
 <p align="center">
   <a href="https://github.com/Sorasukiawa/lightferry/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/Sorasukiawa/lightferry?style=flat-square&label=release&labelColor=0B1A24&color=E2AC4A"></a>
   <img alt="macOS 13 or later · Apple Silicon" src="https://img.shields.io/badge/macOS%2013%2B-Apple%20Silicon-143240?style=flat-square&logo=apple&logoColor=white&labelColor=0B1A24">
-  <img alt="Free beta · 4 languages" src="https://img.shields.io/badge/free%20beta-4%20languages-143240?style=flat-square&labelColor=0B1A24">
+  <img alt="Free trial · one-time purchase" src="https://img.shields.io/badge/free%20trial-one--time%20purchase-143240?style=flat-square&labelColor=0B1A24">
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 </p>
 
 > [!IMPORTANT]
-> This is a free beta with an ad-hoc signature, without Apple Developer ID signing or notarization. Download only from [this repository's Releases](https://github.com/Sorasukiawa/lightferry/releases). See [Get started](#get-started) for the first launch.
+> Installers currently use an ad-hoc signature, without Apple Developer ID signing or notarization. Download only from [this repository's Releases](https://github.com/Sorasukiawa/lightferry/releases). See [Get started](#get-started) for the first launch.
 
 <img src="./screenshot-ingest-en.webp" alt="Lightferry ingest screen: a camera card detected, a project and camera selected, writing to two drives with full verification">
 
@@ -148,6 +148,21 @@ XXH64 detects content differences; it is not a cryptographic signature. Spot-che
 
 Active ingest, file-copy, or archive tasks block installation of an update.
 
+## Pricing
+
+Lightferry is a one-time purchase with no subscription. These prices apply from the paid launch; until then, the current public v0.2.2 remains free.
+
+| Plan | Price | Includes |
+| --- | --- | --- |
+| Free | $0 | Projects, history, reports, and presets always available; 3 free uses of each task type, such as card ingest and file copy or archiving, with no time limit |
+| Perpetual | $59, $49 in the launch month | 2 Macs at once, perpetual use, including future updates and major upgrades |
+| 30-day pass | $5 / Mac | Bought in the app; does not renew automatically |
+| Additional Mac | $29 / Mac | Adds one Mac to a perpetual order |
+
+- Every paid product can be fully refunded within 14 days of purchase, no questions asked.
+- Payments are processed in US dollars by Dodo Payments.
+- Rights you purchase are never taken back by later changes to sales policy.
+
 ## FAQ
 
 <details>
@@ -186,9 +201,9 @@ No. Lightferry confirms local copying and verification. Check the upload separat
 </details>
 
 <details>
-<summary><strong>Does it support Intel or Windows, and is it free?</strong></summary>
+<summary><strong>Does it support Intel or Windows, and how much does it cost?</strong></summary>
 
-The public release is for Apple silicon Macs only and is free without applying or paying. Prices and license terms will be announced before sales begin.
+The public release is for Apple silicon Macs only. Paid sales are about to begin with a one-time purchase: the free tier includes 3 uses of each task type, and the perpetual license is $59 ($49 in the launch month). See [Pricing](#pricing). Until sales open, the current public v0.2.2 remains free.
 
 </details>
 

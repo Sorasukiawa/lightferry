@@ -14,7 +14,7 @@
 <p align="center">
   <a href="https://github.com/Sorasukiawa/lightferry/releases/latest"><img alt="最新版本" src="https://img.shields.io/github/v/release/Sorasukiawa/lightferry?style=flat-square&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&labelColor=0B1A24&color=E2AC4A"></a>
   <img alt="macOS 13 以上 · Apple Silicon" src="https://img.shields.io/badge/macOS%2013%2B-Apple%20Silicon-143240?style=flat-square&logo=apple&logoColor=white&labelColor=0B1A24">
-  <img alt="免費測試 · 四種語言" src="https://img.shields.io/badge/%E5%85%8D%E8%B2%BB%E6%B8%AC%E8%A9%A6-%E5%9B%9B%E7%A8%AE%E8%AA%9E%E8%A8%80-143240?style=flat-square&labelColor=0B1A24">
+  <img alt="免費試用 · 永久買斷" src="https://img.shields.io/badge/%E5%85%8D%E8%B2%BB%E8%A9%A6%E7%94%A8-%E6%B0%B8%E4%B9%85%E8%B2%B7%E6%96%B7-143240?style=flat-square&labelColor=0B1A24">
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 </p>
 
 > [!IMPORTANT]
-> 目前是免費測試版，採用 ad-hoc 簽名，尚未取得 Apple Developer ID 簽名或 Apple 公證。請只從[本倉庫 Releases](https://github.com/Sorasukiawa/lightferry/releases) 下載，首次開啟的步驟見[開始使用](#開始使用)。
+> 安裝包目前採用 ad-hoc 簽名，尚未取得 Apple Developer ID 簽名或 Apple 公證。請只從[本倉庫 Releases](https://github.com/Sorasukiawa/lightferry/releases) 下載，首次開啟的步驟見[開始使用](#開始使用)。
 
 <img src="./screenshot-ingest-zh-TW.webp" alt="光渡拷卡頁：辨識到記憶卡後選擇專案與機位，同時寫入兩顆硬碟，並選擇完整驗證">
 
@@ -148,6 +148,21 @@ XXH64 是內容差異檢查，不是加密簽名；通過後仍應人工抽查�
 
 拷卡、檔案拷貝或封存執行時會阻止安裝更新。
 
+## 價格
+
+光渡採用買斷制，沒有訂閱。以下價格自正式版開售起生效；開售前，目前公開的 v0.2.2 仍可免費使用。
+
+| 方案 | 價格 | 包含 |
+| --- | --- | --- |
+| 免費版 | $0 | 專案、歷史紀錄、報告與預設始終可用；拷卡與檔案拷貝、封存等每類工作各可免費使用 3 次，不限天數 |
+| 永久版 | $59，首發首月 $49 | 2 台 Mac 同時使用，永久使用，包含之後的版本更新與大版本升級 |
+| 30 天短期卡 | $5 / 台 | 在 App 內購買，不自動續費 |
+| 增購裝置 | $29 / 台 | 為永久版訂單增加一台 Mac |
+
+- 所有付費產品購買後 14 天內可全額退款，不問原因。
+- 由 Dodo Payments 以美元收款；可依結帳時的匯率以銀行卡等方式付款。
+- 購買時取得的權益，不會因日後的銷售政策調整而收回。
+
 ## 常見問題
 
 <details>
@@ -186,9 +201,9 @@ XXH64 是內容差異檢查，不是加密簽名；通過後仍應人工抽查�
 </details>
 
 <details>
-<summary><strong>支援 Intel Mac、Windows 嗎？目前收費嗎？</strong></summary>
+<summary><strong>支援 Intel Mac、Windows 嗎？收費嗎？</strong></summary>
 
-目前公開版僅支援 Apple 晶片 Mac，免費使用，無需申請或付款。正式收費前會另行公布價格與授權規則。
+目前公開版僅支援 Apple 晶片 Mac。光渡即將開始收費，採用買斷制：免費版每類工作可用 3 次，永久版 $59（首發首月 $49），詳見[價格](#價格)。開售前，目前公開的 v0.2.2 仍可免費使用。
 
 </details>
 
