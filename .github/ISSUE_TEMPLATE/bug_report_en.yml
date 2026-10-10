@@ -1,0 +1,83 @@
+name: Bug report (English)
+description: Something went wrong, a result looks wrong, or the app will not install
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. GitHub issues are public, so share redacted information only: hide project names and paths, and **do not upload original media, client information, or license keys**.
+        For private matters, email support@lightferry.app.
+  - type: input
+    id: version
+    attributes:
+      label: Lightferry version
+      description: See Settings → About & Help in the app.
+      placeholder: e.g. 0.2.2
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac chip
+      description: See Apple menu → About This Mac.
+      placeholder: e.g. macOS 15.5 · M2 Pro
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Feature in use
+      options:
+        - Card ingest
+        - File copy
+        - Project media import
+        - Project archive (local / NAS / cloud sync folder)
+        - Verification and task reports
+        - Installation and updates
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: storage
+    attributes:
+      label: Source and destinations
+      description: Camera or card reader, card and destination formats (APFS / ExFAT / NAS), and how they are connected.
+      placeholder: e.g. Sony FX3 CFexpress A card → working disk APFS (Thunderbolt) + backup ExFAT (USB)
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and error text
+      description: Paste the complete error text. You can drag screenshots in; please hide project names and paths.
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Only once
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and found no duplicate
+          required: true
+        - label: The report is redacted and contains no original media, client information, real paths, or license keys
+          required: true
