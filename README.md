@@ -27,7 +27,7 @@
 > [!IMPORTANT]
 > 当前为免费内测版，采用 ad-hoc 签名，尚无 Apple Developer ID 签名或 Apple 公证。请只从[本仓库 Releases](https://github.com/Sorasukiawa/lightferry/releases) 下载，首次打开的步骤见[开始使用](#开始使用)。
 
-<img src="./screenshot-ingest-zh-CN.jpg" alt="光渡拷卡页：识别到存储卡后选择项目与机位，同时写入两块硬盘，并选择完整校验">
+<img src="./screenshot-ingest-zh-CN.webp" alt="光渡拷卡页：识别到存储卡后选择项目与机位，同时写入两块硬盘，并选择完整校验">
 
 <p align="center"><sub>Mac 上的实际窗口截图：插卡后选好项目与机位，同时写入两块硬盘并完整校验。示例项目与文件夹为演示用。</sub></p>
 
@@ -112,13 +112,13 @@
 
 ### 项目工作台
 
-<img src="./screenshot-projects-zh-CN.jpg" alt="光渡项目页：三个示例项目的卡片，显示类型、拍摄日、素材量与文件数">
+<img src="./screenshot-projects-zh-CN.webp" alt="光渡项目页：三个示例项目的卡片，显示类型、拍摄日、素材量与文件数">
 
 每个项目一张卡片，显示类型、拍摄日、素材量与文件数；拷卡完成后还会标出是否双备份、是否通过校验。可以按进行中、已完成、已归档与回收站筛选，也可以分组。
 
 ### 文件拷贝
 
-<img src="./screenshot-copy-zh-CN.jpg" alt="光渡文件拷贝页：一个示例来源文件夹、两个位于不同硬盘的目的地，以及选中的完整校验">
+<img src="./screenshot-copy-zh-CN.webp" alt="光渡文件拷贝页：一个示例来源文件夹、两个位于不同硬盘的目的地，以及选中的完整校验">
 
 文件与文件夹原样拷到一个或多个位置，保留目录层级；开始前显示每个目的地的剩余空间与所需空间，拷完逐份校验。
 
