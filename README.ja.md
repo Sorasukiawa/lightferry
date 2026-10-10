@@ -14,7 +14,7 @@
 <p align="center">
   <a href="https://github.com/Sorasukiawa/lightferry/releases/latest"><img alt="最新版" src="https://img.shields.io/github/v/release/Sorasukiawa/lightferry?style=flat-square&label=%E6%9C%80%E6%96%B0%E7%89%88&labelColor=0B1A24&color=E2AC4A"></a>
   <img alt="macOS 13 以降 · Apple Silicon" src="https://img.shields.io/badge/macOS%2013%2B-Apple%20Silicon-143240?style=flat-square&logo=apple&logoColor=white&labelColor=0B1A24">
-  <img alt="無料ベータ · 4 言語" src="https://img.shields.io/badge/%E7%84%A1%E6%96%99%E3%83%99%E3%83%BC%E3%82%BF-4%20%E8%A8%80%E8%AA%9E-143240?style=flat-square&labelColor=0B1A24">
+  <img alt="無料トライアル · 買い切り" src="https://img.shields.io/badge/%E7%84%A1%E6%96%99%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%AB-%E8%B2%B7%E3%81%84%E5%88%87%E3%82%8A-143240?style=flat-square&labelColor=0B1A24">
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 </p>
 
 > [!IMPORTANT]
-> 現在は無料ベータ版です。ad-hoc 署名を使用しており、Apple Developer ID 署名と公証はありません。[このリポジトリの Releases](https://github.com/Sorasukiawa/lightferry/releases) からのみ入手してください。初回起動の手順は[使い始める](#使い始める)をご覧ください。
+> インストーラーは現在 ad-hoc 署名を使用しており、Apple Developer ID 署名と公証はありません。[このリポジトリの Releases](https://github.com/Sorasukiawa/lightferry/releases) からのみ入手してください。初回起動の手順は[使い始める](#使い始める)をご覧ください。
 
 <img src="./screenshot-ingest-ja.webp" alt="光渡の取り込み画面：カードを検出し、プロジェクトとカメラを選択、2 台のドライブへ同時に書き込み、完全検証を選択">
 
@@ -148,6 +148,21 @@ XXH64 は内容の差を調べるもので、暗号学的な署名ではあり�
 
 カード取り込み、ファイルコピー、アーカイブの実行中は更新をインストールできません。
 
+## 価格
+
+光渡は買い切り型で、サブスクリプションはありません。以下の価格は正式版の発売から適用され、それまでは公開中の v0.2.2 を無料で使えます。
+
+| プラン | 価格 | 内容 |
+| --- | --- | --- |
+| 無料版 | $0 | プロジェクト、履歴、レポート、プリセットはいつでも利用可能。カード取り込みとファイルコピー、アーカイブなど各作業を 3 回まで無料で使えます（期限なし） |
+| 永久ライセンス | $59（発売初月 $49） | Mac 2 台で同時に利用でき、買い切り。今後のアップデートとメジャーアップグレードを含みます |
+| 30 日パス | $5 / Mac 1 台 | アプリ内で購入、自動更新なし |
+| 追加デバイス | $29 / 台 | 永久ライセンスの注文に Mac を 1 台追加 |
+
+- 有料製品はすべて、購入後 14 日以内なら理由を問わず全額返金できます。
+- 決済は Dodo Payments が米ドル建てで処理します。
+- 購入時に得た権利は、今後の販売方針の変更で取り消されません。
+
 ## よくある質問
 
 <details>
@@ -186,9 +201,9 @@ XXH64 は内容の差を調べるもので、暗号学的な署名ではあり�
 </details>
 
 <details>
-<summary><strong>Intel や Windows に対応していますか？有料ですか？</strong></summary>
+<summary><strong>Intel や Windows に対応していますか？価格は？</strong></summary>
 
-現在の公開版は Apple シリコン Mac 専用で、申請や支払いなしで利用できます。有料化前に価格とライセンス条件をお知らせします。
+現在の公開版は Apple シリコン Mac 専用です。光渡はまもなく有料化し、買い切り型になります。無料版は各作業 3 回まで、永久ライセンスは $59（発売初月 $49）です。詳しくは[価格](#価格)をご覧ください。発売までは、公開中の v0.2.2 を無料で使えます。
 
 </details>
 
