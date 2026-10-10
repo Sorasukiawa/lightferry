@@ -2,8 +2,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./brand/wordmark-stacked-white.svg">
-    <img src="./brand/wordmark-stacked-ink.svg" width="220" alt="光渡 Lightferry">
+    <source media="(prefers-color-scheme: dark)" srcset="./brand/lockup-icon-white.svg">
+    <img src="./brand/lockup-icon-ink.svg" width="240" alt="光渡 Lightferry">
   </picture>
 </p>
 
@@ -20,9 +20,9 @@
 
 <p align="center"><sub>免费内测 · macOS 13 及以上 · 简体中文 / 繁體中文 / English / 日本語 · 浅色与深色主题</sub></p>
 
-<img src="./screenshot-ingest-zh-CN.png" alt="光渡拷卡页：识别到存储卡 A001_FX3，选中项目「品牌活动纪实」，同时写入工作盘与备份盘，并选择完整校验">
+<img src="./screenshot-ingest-zh-CN.png" alt="光渡拷卡页：识别到存储卡 EOS_DIGITAL，选中项目「品牌活动纪实」，同时写入工作盘与备份盘，并选择完整校验">
 
-<p align="center"><sub>新版界面的浏览器演示截图，深色主题；存储卡、项目与路径均为演示数据，不代表真实拷贝结果。</sub></p>
+<p align="center"><sub>Mac 上的实际窗口截图，深色主题；项目、文件夹与存储卡内容均为演示用，截图时没有开始拷贝。</sub></p>
 
 ## 拷贝 · 校验 · 整理
 
@@ -89,13 +89,13 @@
 
 ### 项目工作台
 
-<img src="./screenshot-projects-zh-CN.png" alt="光渡项目页：三个演示项目的卡片，显示类型、拍摄日、素材量、拷卡次数，以及双备份与已校验标记">
+<img src="./screenshot-projects-zh-CN.png" alt="光渡项目页：三个演示项目的卡片，显示类型、拍摄日与素材量">
 
 每个项目一张卡片：类型、拍摄日、素材量与拷卡次数，以及是否双备份、是否通过校验。按进行中、已完成、已归档与回收站筛选，也可以分组。
 
 ### 文件拷贝
 
-<img src="./screenshot-copy-zh-CN.png" alt="光渡文件拷贝页：一个演示来源文件夹、两个带路径的目的地，以及选中的完整校验">
+<img src="./screenshot-copy-zh-CN.png" alt="光渡文件拷贝页：一个演示来源文件夹、两个位于不同硬盘的目的地，以及选中的完整校验">
 
 文件与文件夹原样拷到一个或多个位置，保留目录层级；开始前显示每个目的地的剩余空间与所需空间，拷完逐份校验。
 
@@ -103,7 +103,7 @@
 
 拷卡、文件拷贝、素材导入与归档完成后，都能在任务报告里按项目、日期、类型与状态查找，并导出离线 HTML 或多页 PDF。旧记录缺失的字段会标为「未记录」，不会推定成功。
 
-<p><sub>以上均为新版界面的浏览器演示截图；项目、文件与路径均为演示数据。</sub></p>
+<p><sub>以上均为 Mac 上的实际窗口截图；项目、文件与路径均为演示用。</sub></p>
 
 ## 校验方式
 

@@ -2,8 +2,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./brand/wordmark-stacked-white.svg">
-    <img src="./brand/wordmark-stacked-ink.svg" width="220" alt="光渡 Lightferry">
+    <source media="(prefers-color-scheme: dark)" srcset="./brand/lockup-icon-white.svg">
+    <img src="./brand/lockup-icon-ink.svg" width="240" alt="光渡 Lightferry">
   </picture>
 </p>
 
@@ -20,9 +20,9 @@
 
 <p align="center"><sub>免費測試版 · macOS 13 及以上 · 简体中文 / 繁體中文 / English / 日本語 · 淺色與深色主題</sub></p>
 
-<img src="./screenshot-ingest-zh-TW.png" alt="光渡拷卡頁：辨識到記憶卡 A001_FX3，選取專案「品牌活動紀實」，同時寫入工作碟與備份碟，並選擇完整驗證">
+<img src="./screenshot-ingest-zh-TW.png" alt="光渡拷卡頁：辨識到記憶卡 EOS_DIGITAL，選取專案「品牌活动纪实」，同時寫入工作碟與備份碟，並選擇完整驗證">
 
-<p align="center"><sub>新版介面的瀏覽器演示截圖，深色主題；記憶卡、專案與路徑均為演示資料，不代表真實拷貝結果。</sub></p>
+<p align="center"><sub>Mac 上的實際視窗截圖，深色主題；專案、資料夾與記憶卡內容均為演示用，截圖時沒有開始拷貝。演示專案名稱為簡體中文。</sub></p>
 
 ## 拷貝 · 驗證 · 整理
 
@@ -89,13 +89,13 @@
 
 ### 專案工作台
 
-<img src="./screenshot-projects-zh-TW.png" alt="光渡專案頁：三個演示專案的卡片，顯示類型、拍攝日、素材量、拷卡次數，以及雙備份與已驗證標記">
+<img src="./screenshot-projects-zh-TW.png" alt="光渡專案頁：三個演示專案的卡片，顯示類型、拍攝日與素材量">
 
 每個專案一張卡片：類型、拍攝日、素材量與拷卡次數，以及是否雙備份、是否通過驗證。可依進行中、已完成、已封存與回收站篩選，也可以分組。
 
 ### 檔案拷貝
 
-<img src="./screenshot-copy-zh-TW.png" alt="光渡檔案拷貝頁：一個演示來源資料夾、兩個帶路徑的目的地，以及選取的完整驗證">
+<img src="./screenshot-copy-zh-TW.png" alt="光渡檔案拷貝頁：一個演示來源資料夾、兩個位於不同硬碟的目的地，以及選取的完整驗證">
 
 檔案與資料夾原樣拷到一個或多個位置，保留資料夾層級；開始前顯示每個目的地的剩餘空間與所需空間，拷完逐份驗證。
 
@@ -103,7 +103,7 @@
 
 拷卡、檔案拷貝、素材匯入與封存完成後，都能在工作報告裡依專案、日期、類型與狀態搜尋，並匯出離線 HTML 或多頁 PDF。舊紀錄缺少的欄位會標為「未記錄」，不會推定成功。
 
-<p><sub>以上均為新版介面的瀏覽器演示截圖；專案、檔案與路徑均為演示資料。</sub></p>
+<p><sub>以上均為 Mac 上的實際視窗截圖；專案、檔案與路徑均為演示用。</sub></p>
 
 ## 驗證方式
 
