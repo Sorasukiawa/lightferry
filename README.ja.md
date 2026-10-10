@@ -2,8 +2,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./brand/wordmark-stacked-white.svg">
-    <img src="./brand/wordmark-stacked-ink.svg" width="220" alt="光渡 Lightferry">
+    <source media="(prefers-color-scheme: dark)" srcset="./brand/lockup-icon-white.svg">
+    <img src="./brand/lockup-icon-ink.svg" width="240" alt="光渡 Lightferry">
   </picture>
 </p>
 
@@ -20,9 +20,9 @@
 
 <p align="center"><sub>無料ベータ版 · macOS 13 以降 · 简体中文 / 繁體中文 / English / 日本語 · ライト／ダークテーマ</sub></p>
 
-<img src="./screenshot-ingest-ja.png" alt="光渡の取り込み画面：カメラカード A001_FX3 を検出し、プロジェクト「ブランドイベント記録」を選択、作業用とバックアップへ同時に書き込み、完全検証を選択">
+<img src="./screenshot-ingest-ja.png" alt="光渡の取り込み画面：カメラカード EOS_DIGITAL を検出し、デモプロジェクトを選択、作業用とバックアップへ同時に書き込み、完全検証を選択">
 
-<p align="center"><sub>新しいインターフェースのブラウザーデモ、ダークテーマ。カード、プロジェクト、パスはデモデータで、実際のコピー結果ではありません。</sub></p>
+<p align="center"><sub>Mac 上の実際のウィンドウキャプチャ、ダークテーマ。プロジェクト、フォルダー、カードの内容はデモ用で、コピーは開始していません。デモプロジェクト名は中国語です。</sub></p>
 
 ## コピー・検証・整理
 
@@ -89,13 +89,13 @@
 
 ### プロジェクト
 
-<img src="./screenshot-projects-ja.png" alt="光渡のプロジェクト画面：3 件のデモプロジェクトのカードに種類、撮影日、素材量、取り込み回数、二重バックアップと検証済みの表示">
+<img src="./screenshot-projects-ja.png" alt="光渡のプロジェクト画面：3 件のデモプロジェクトのカードに種類、撮影日、素材量を表示">
 
 プロジェクトごとに 1 枚のカード：種類、撮影日、素材量、取り込み回数、二重バックアップと検証済みの表示。進行中・完了・アーカイブ済み・ゴミ箱で絞り込み、グループ分けもできます。
 
 ### ファイルコピー
 
-<img src="./screenshot-copy-ja.png" alt="光渡のファイルコピー画面：デモの元フォルダー 1 件、パス付きの保存先 2 件、完全検証を選択">
+<img src="./screenshot-copy-ja.png" alt="光渡のファイルコピー画面：デモの元フォルダー 1 件、別々のドライブにある保存先 2 件、完全検証を選択">
 
 ファイルとフォルダーを階層そのままに一つ以上の場所へコピー。開始前に保存先ごとの空き容量と必要容量を表示し、コピー後に一つずつ検証します。
 
@@ -103,7 +103,7 @@
 
 取り込み、ファイルコピー、素材追加、アーカイブが終わると、作業レポートでプロジェクト、日付、種類、状態から探し、オフライン HTML または複数ページの PDF に書き出せます。過去の記録にない項目は「未記録」と示し、成功と推定しません。
 
-<p><sub>いずれも新しいインターフェースのブラウザーデモ。プロジェクト、ファイル、パスはデモデータです。</sub></p>
+<p><sub>いずれも Mac 上の実際のウィンドウキャプチャ。プロジェクト、ファイル、パスはデモ用です。</sub></p>
 
 ## 検証の種類
 

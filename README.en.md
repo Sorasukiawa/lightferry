@@ -2,8 +2,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./brand/wordmark-stacked-white.svg">
-    <img src="./brand/wordmark-stacked-ink.svg" width="220" alt="Lightferry 光渡">
+    <source media="(prefers-color-scheme: dark)" srcset="./brand/lockup-icon-white.svg">
+    <img src="./brand/lockup-icon-ink.svg" width="240" alt="Lightferry 光渡">
   </picture>
 </p>
 
@@ -20,9 +20,9 @@
 
 <p align="center"><sub>Free beta · macOS 13 or later · 简体中文 / 繁體中文 / English / 日本語 · Light and dark themes</sub></p>
 
-<img src="./screenshot-ingest-en.png" alt="Lightferry ingest screen: camera card A001_FX3 detected, project Brand Event Coverage selected, writing to the working disk and backup disk with full verification">
+<img src="./screenshot-ingest-en.png" alt="Lightferry ingest screen: camera card EOS_DIGITAL detected, a demo project selected, writing to the working disk and backup disk with full verification">
 
-<p align="center"><sub>Browser demo of the new interface, dark theme. The card, projects, and paths are demo data and do not represent real copy results.</sub></p>
+<p align="center"><sub>Actual window capture on a Mac, dark theme. The projects, folders, and card contents are for demonstration, and no copy was started. Demo project names are in Chinese.</sub></p>
 
 ## Copy. Verify. Organize.
 
@@ -89,13 +89,13 @@
 
 ### Project workspace
 
-<img src="./screenshot-projects-en.png" alt="Lightferry projects screen: three demo project cards showing type, shoot date, media size, ingest count, and dual-backup and verified badges">
+<img src="./screenshot-projects-en.png" alt="Lightferry projects screen: three demo project cards showing type, shoot date, and media size">
 
 One card per project: type, shoot date, media size, ingest count, and whether it is dual-backed and verified. Filter by active, completed, archived, and trash, or group projects.
 
 ### File copy
 
-<img src="./screenshot-copy-en.png" alt="Lightferry file copy screen: one demo source folder, two destinations with paths, and full verification selected">
+<img src="./screenshot-copy-en.png" alt="Lightferry file copy screen: one demo source folder, two destinations on separate drives, and full verification selected">
 
 Copy files and folders as they are to one or more locations, keeping the folder structure. Free and required space are shown for each destination before you start, and every copy is verified afterwards.
 
@@ -103,7 +103,7 @@ Copy files and folders as they are to one or more locations, keeping the folder 
 
 After an ingest, file copy, media import, or archive finishes, find it in task reports by project, date, type, and status, and export an offline HTML or multipage PDF. Missing fields in older records are marked as unknown rather than treated as success.
 
-<p><sub>All screenshots are browser demos of the new interface; projects, files, and paths are demo data.</sub></p>
+<p><sub>All screenshots are actual window captures on a Mac; projects, files, and paths are for demonstration.</sub></p>
 
 ## Verification levels
 
