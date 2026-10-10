@@ -1,0 +1,28 @@
+name: 功能建议 · Feature request
+description: 希望光渡新增或改进的功能 / A feature you would like Lightferry to add or improve
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: 你的工作流程 · Your workflow
+      description: 拍摄类型、相机与存储设备，以及现在怎么完成这一步。 / What you shoot, your cameras and storage, and how you handle this step today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 希望光渡怎么帮你 · What you would like Lightferry to do
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 现在的替代做法 · Current workaround
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 提交前确认 · Before submitting
+      options:
+        - label: 我已搜索过已有建议 / I searched existing requests
+          required: true

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用指南 · User guides
+    url: https://getshiguang.pages.dev/guides/
+    about: 安装、拷卡、恢复中断任务与归档的图文步骤 / Step-by-step guides for installing, ingesting, recovery and archiving.
+  - name: 提问与交流 · Questions & ideas
+    url: https://github.com/Sorasukiawa/lightferry/discussions
+    about: 使用问题、工作流交流与想法 / Usage questions, workflows and ideas.
+  - name: 私下联系 · Private support
+    url: https://getshiguang.pages.dev/support/
+    about: 不便公开的问题请发邮件到 support@lightferry.app / For private matters, email support@lightferry.app.

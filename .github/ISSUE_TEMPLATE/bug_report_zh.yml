@@ -1,0 +1,83 @@
+name: 问题反馈（中文）
+description: App 出现异常、结果与预期不符或无法安装
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。GitHub 问题对外公开，请只填写脱敏内容：遮挡项目名与路径，**不要上传原始素材、客户资料或激活码**。
+        不便公开的问题请发邮件到 support@lightferry.app。
+  - type: input
+    id: version
+    attributes:
+      label: 光渡版本
+      description: 在 App 的「设置 → 关于与帮助」查看。
+      placeholder: 例如 0.2.2
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 版本与 Mac 芯片
+      description: 在  → 关于本机查看。
+      placeholder: 例如 macOS 15.5 · M2 Pro
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 使用的功能
+      options:
+        - 拷卡
+        - 文件拷贝
+        - 项目素材导入
+        - 项目归档（本地 / NAS / 网盘同步文件夹）
+        - 校验与任务报告
+        - 安装与更新
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: storage
+    attributes:
+      label: 来源与目标
+      description: 相机或读卡器型号、卡与目标盘的格式（APFS / ExFAT / NAS 等）、连接方式。
+      placeholder: 例如 Sony FX3 CFexpress A 卡 → 工作盘 APFS（雷电）+ 备份盘 ExFAT（USB）
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果与错误提示
+      description: 请贴完整的错误文字；截图可直接拖进来，记得遮挡项目名和路径。
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: 是否每次出现
+      options:
+        - 每次都会
+        - 偶尔出现
+        - 只出现过一次
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已搜索过已有问题，没有找到相同的反馈
+          required: true
+        - label: 内容已脱敏，没有原始素材、客户资料、真实路径或激活码
+          required: true
