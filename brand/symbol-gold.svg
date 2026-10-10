@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="#E2AC4A">
+  <!-- 光渡标志母版：一轮完整的光，被一道水波分成光与影。改形状只改这里，再运行 npm run icon:generate。 -->
+  <g id="shiguang-shape">
+    <path id="light" d="M8.76 38A24 24 0 1 1 54.25 41C43 48.5 19 31.5 8.76 38Z"/>
+    <path id="water" d="M11.33 44.2C21.5 38 44.5 53 52.04 45.2A24 24 0 0 1 11.33 44.2Z"/>
+  </g>
+</svg>
