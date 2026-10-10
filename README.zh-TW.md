@@ -27,7 +27,7 @@
 > [!IMPORTANT]
 > 目前是免費測試版，採用 ad-hoc 簽名，尚未取得 Apple Developer ID 簽名或 Apple 公證。請只從[本倉庫 Releases](https://github.com/Sorasukiawa/lightferry/releases) 下載，首次開啟的步驟見[開始使用](#開始使用)。
 
-<img src="./screenshot-ingest-zh-TW.jpg" alt="光渡拷卡頁：辨識到記憶卡後選擇專案與機位，同時寫入兩顆硬碟，並選擇完整驗證">
+<img src="./screenshot-ingest-zh-TW.webp" alt="光渡拷卡頁：辨識到記憶卡後選擇專案與機位，同時寫入兩顆硬碟，並選擇完整驗證">
 
 <p align="center"><sub>Mac 上的實際視窗截圖：插卡後選好專案與機位，同時寫入兩顆硬碟並完整驗證。示例專案與資料夾為演示用。</sub></p>
 
@@ -112,13 +112,13 @@
 
 ### 專案工作台
 
-<img src="./screenshot-projects-zh-TW.jpg" alt="光渡專案頁：三個示例專案的卡片，顯示類型、拍攝日、素材量與檔案數">
+<img src="./screenshot-projects-zh-TW.webp" alt="光渡專案頁：三個示例專案的卡片，顯示類型、拍攝日、素材量與檔案數">
 
 每個專案一張卡片，顯示類型、拍攝日、素材量與檔案數；拷卡完成後還會標出是否雙備份、是否通過驗證。可依進行中、已完成、已封存與回收站篩選，也可以分組。
 
 ### 檔案拷貝
 
-<img src="./screenshot-copy-zh-TW.jpg" alt="光渡檔案拷貝頁：一個示例來源資料夾、兩個位於不同硬碟的目的地，以及選取的完整驗證">
+<img src="./screenshot-copy-zh-TW.webp" alt="光渡檔案拷貝頁：一個示例來源資料夾、兩個位於不同硬碟的目的地，以及選取的完整驗證">
 
 檔案與資料夾原樣拷到一個或多個位置，保留資料夾層級；開始前顯示每個目的地的剩餘空間與所需空間，拷完逐份驗證。
 

@@ -27,7 +27,7 @@
 > [!IMPORTANT]
 > This is a free beta with an ad-hoc signature, without Apple Developer ID signing or notarization. Download only from [this repository's Releases](https://github.com/Sorasukiawa/lightferry/releases). See [Get started](#get-started) for the first launch.
 
-<img src="./screenshot-ingest-en.jpg" alt="Lightferry ingest screen: a camera card detected, a project and camera selected, writing to two drives with full verification">
+<img src="./screenshot-ingest-en.webp" alt="Lightferry ingest screen: a camera card detected, a project and camera selected, writing to two drives with full verification">
 
 <p align="center"><sub>Actual window capture on a Mac: after inserting a card, choose the project and camera, write to two drives, and verify in full. Sample projects and folders are for demonstration.</sub></p>
 
@@ -112,13 +112,13 @@
 
 ### Project workspace
 
-<img src="./screenshot-projects-en.jpg" alt="Lightferry projects screen: three sample project cards showing type, shoot date, media size, and file count">
+<img src="./screenshot-projects-en.webp" alt="Lightferry projects screen: three sample project cards showing type, shoot date, media size, and file count">
 
 One card per project shows the type, shoot date, media size, and file count. After an ingest, it also shows whether the project is dual-backed and verified. Filter by active, completed, archived, and trash, or group projects.
 
 ### File copy
 
-<img src="./screenshot-copy-en.jpg" alt="Lightferry file copy screen: one sample source folder, two destinations on separate drives, and full verification selected">
+<img src="./screenshot-copy-en.webp" alt="Lightferry file copy screen: one sample source folder, two destinations on separate drives, and full verification selected">
 
 Copy files and folders as they are to one or more locations, keeping the folder structure. Free and required space are shown for each destination before you start, and every copy is verified afterwards.
 
