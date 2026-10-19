@@ -155,7 +155,8 @@ Lightferry is a one-time purchase with no subscription. These prices apply from 
 | Plan | Price | Includes |
 | --- | --- | --- |
 | Free | $0 | Projects, history, reports, and presets always available; 3 free uses of each task type, such as card ingest and file copy or archiving, with no time limit |
-| Perpetual | $59, $49 in the launch month | 2 Macs at once, perpetual use, including future updates and major upgrades |
+| Perpetual | $59, $49 in the launch month | 2 Macs at once, perpetual use, free updates for your major version plus any new major version released within a year |
+| Major upgrade | $29 each | Upgrade to a later major version for every Mac on the order; same price however many you skip; never automatic |
 | 30-day pass | $5 / Mac | Bought in the app; does not renew automatically |
 | Additional Mac | $29 / Mac | Adds one Mac to a perpetual order |
 
