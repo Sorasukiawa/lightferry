@@ -168,7 +168,7 @@ Lightferry es un pago único sin suscripción. La organización de proyectos y l
 | Plan | Precio | Incluye |
 | --- | --- | --- |
 | Gratis | $0 | Proyectos, historial, informes y preajustes siempre disponibles; 3 usos gratuitos por cada tipo de tarea, como volcado y copia, o archivo, sin límite de tiempo |
-| Licencia perpetua | $59 ($49 durante el mes de lanzamiento) | 2 Mac a la vez, uso perpetuo, actualizaciones gratuitas para tu versión principal y cualquier nueva versión principal publicada en el plazo de un año |
+| Licencia perpetua | $59 ($49 durante el periodo de lanzamiento) | 2 Mac a la vez, uso perpetuo, actualizaciones gratuitas para tu versión principal y cualquier nueva versión principal publicada en el plazo de un año |
 | Actualización principal | $29 por actualización | Actualiza a una versión principal posterior todos los Mac del pedido; mismo precio sin importar cuántas versiones saltes; nunca se cobra automáticamente |
 | Pase de 30 días | $10 / Mac | Se compra dentro de la app; no se renueva automáticamente |
 | Puesto adicional para Mac | $19 / Mac | Añade más Mac a un pedido perpetuo (cada licencia incluye 2 Mac, hasta 4 en total) |
@@ -224,7 +224,7 @@ Al actualizar de Shiguang 0.2.x a Lightferry 1.0 se pasa a licencia de pago, y c
 <details>
 <summary><strong>¿Es compatible con Intel o Windows? ¿Cuánto cuesta?</strong></summary>
 
-Actualmente solo es compatible con Mac con chip de Apple. Lightferry es un pago único: la organización de proyectos y los preajustes son gratis para siempre, cada tipo de tarea incluye 3 pruebas gratuitas y la licencia perpetua cuesta $59 ($49 durante el mes de lanzamiento). Consulta [Precios](#precios).
+Actualmente solo es compatible con Mac con chip de Apple. Lightferry es un pago único: la organización de proyectos y los preajustes son gratis para siempre, cada tipo de tarea incluye 3 pruebas gratuitas y la licencia perpetua cuesta $59 ($49 durante el periodo de lanzamiento). Consulta [Precios](#precios).
 
 </details>
 
