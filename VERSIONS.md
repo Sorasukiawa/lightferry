@@ -6,6 +6,7 @@
 
 | 版本 / Version | 日期 | 简体中文 | 繁體中文 | English | 日本語 |
 | --- | --- | --- | --- | --- | --- |
+| [v1.0.0](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0) | 2026-11-22 | 光渡正式版 | 光渡正式版 | Lightferry 1.0 | 光渡 正式版 |
 | [v0.2.2](https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2) | 2026-10-01 | 报告与完成通知改进 | 報告與完成通知改善 | Reports & completion notifications | レポートと完了通知の改善 |
 | [v0.2.1](https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.1) | 2026-09-24 | 校验升级与任务报告 | 驗證升級與工作報告 | Verification & task reports | 検証の強化と作業レポート |
 | [v0.2.0](https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.0) | 2026-09-20 | 文件拷贝与项目素材导入 | 檔案複製與專案素材匯入 | File copy & project import | ファイルコピーと素材追加 |

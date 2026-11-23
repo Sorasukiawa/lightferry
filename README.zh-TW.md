@@ -1,4 +1,4 @@
-[简体中文](./README.md) · [繁體中文](./README.zh-TW.md) · [English](./README.en.md) · [日本語](./README.ja.md)
+[简体中文](./README.md) · [繁體中文](./README.zh-TW.md) · [English](./README.en.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [Español](./README.es.md)
 
 <p align="center">
   <picture>
@@ -18,14 +18,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v0.2.2/Lightferry_0.2.2_aarch64.dmg"><strong>下載 v0.2.2 · Apple Silicon Mac</strong></a>
-  &nbsp;·&nbsp; <a href="https://getshiguang.pages.dev/guides/">使用指南</a>
-  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2">本次更新</a>
+  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.0/Lightferry_1.0.0_aarch64.dmg"><strong>下載 v1.0.0 · Apple Silicon Mac</strong></a>
+  &nbsp;·&nbsp; <a href="https://lightferry.app/zh-tw/guides/">使用指南</a>
+  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0">本次更新</a>
+  &nbsp;·&nbsp; <a href="https://lightferry.app/zh-tw/pricing/">購買</a>
   &nbsp;·&nbsp; <a href="./VERSIONS.md">全部版本</a>
 </p>
 
-> [!IMPORTANT]
-> 安裝包目前採用 ad-hoc 簽名，尚未取得 Apple Developer ID 簽名或 Apple 公證。請只從[本倉庫 Releases](https://github.com/Sorasukiawa/lightferry/releases) 下載，首次開啟的步驟見[開始使用](#開始使用)。
+> [!NOTE]
+> 安裝包已通過 Apple Developer ID 簽名與公證。請從[本倉庫 Releases](https://github.com/Sorasukiawa/lightferry/releases) 或 [lightferry.app](https://lightferry.app/zh-tw/download/) 下載。
 
 <img src="./screenshot-ingest-zh-TW.webp" alt="光渡拷卡頁：辨識到記憶卡後選擇專案與機位，同時寫入兩顆硬碟，並選擇完整驗證">
 
@@ -44,6 +45,18 @@
       <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/copy-dawn.svg"><img src="./brand/icons/copy-ink.svg" width="32" height="32" alt=""></picture><br>
       <strong>檔案與資料夾拷貝</strong><br>
       <sub>從 Finder 拖入或選擇來源，保留資料夾層級，原樣寫入一個或多個目的地；開始前預檢空間。</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/projects-dawn.svg"><img src="./brand/icons/projects-ink.svg" width="32" height="32" alt=""></picture><br>
+      <strong>剪輯專案銜接</strong><br>
+      <sub>新建專案可選 Final Cut Pro、DaVinci Resolve、Premiere Pro 或 CapCut，拷卡驗證通過後自動送入或產生專案。</sub>
+    </td>
+    <td valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/video-dawn.svg"><img src="./brand/icons/video-ink.svg" width="32" height="32" alt=""></picture><br>
+      <strong>影片審片與代理</strong><br>
+      <sub>把影片轉成 H.264 審片小樣或 ProRes 剪輯代理，可在剪輯軟體裡連回原片；Log 素材可直連廠商官方 LUT 並核對 SHA-256，轉成 Rec.709 審片小樣。</sub>
     </td>
   </tr>
   <tr>
@@ -73,8 +86,8 @@
   <tr>
     <td valign="top">
       <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/report-dawn.svg"><img src="./brand/icons/report-ink.svg" width="32" height="32" alt=""></picture><br>
-      <strong>工作報告</strong><br>
-      <sub>依專案、日期、類型與狀態搜尋工作結果，匯出離線 HTML 或多頁 PDF；完成通知可直接開啟對應報告。</sub>
+      <strong>工作報告與郵件通知</strong><br>
+      <sub>依專案、日期、類型與狀態搜尋工作結果，匯出離線 HTML、多頁 PDF 與 ASC MHL 清單；拷完可寄信告知記憶卡能不能格式化，完成通知可直接開啟對應報告。</sub>
     </td>
     <td valign="top">
       <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/presets-dawn.svg"><img src="./brand/icons/presets-ink.svg" width="32" height="32" alt=""></picture><br>
@@ -116,9 +129,9 @@
 
 每個專案一張卡片，顯示類型、拍攝日、素材量與檔案數；拷卡完成後還會標出是否雙備份、是否通過驗證。可依進行中、已完成、已封存與回收站篩選，也可以分組。
 
-### 檔案拷貝
+### 拷貝
 
-<img src="./screenshot-copy-zh-TW.webp" alt="光渡檔案拷貝頁：一個示例來源資料夾、兩個位於不同硬碟的目的地，以及選取的完整驗證">
+<img src="./screenshot-copy-zh-TW.webp" alt="光渡拷貝頁：一個示例來源資料夾、兩個位於不同硬碟的目的地，以及選取的完整驗證">
 
 檔案與資料夾原樣拷到一個或多個位置，保留資料夾層級；開始前顯示每個目的地的剩餘空間與所需空間，拷完逐份驗證。
 
@@ -139,7 +152,7 @@ XXH64 是內容差異檢查，不是加密簽名；通過後仍應人工抽查�
 ## 開始使用
 
 1. 下載上方的 **Apple Silicon Mac** DMG；目前沒有 Intel Mac 或 Windows 公開安裝包。可在 ** → 關於這台 Mac** 查看晶片。
-2. 開啟 DMG，把光渡拖進「應用程式」。首次開啟若被 macOS 阻止，前往 **系統設定 → 隱私權與安全性**，核對 App 後選擇「仍要打開」。無需關閉 Gatekeeper。
+2. 開啟 DMG，把光渡拖進「應用程式」。首次開啟時 macOS 會確認這是從網際網路下載的 App，選擇「打開」即可。
 3. 在設定裡選好工作碟與備份碟，新建專案，插卡即可開始。重要素材請保留原卡和另一份可靠備份，確認副本後才格式化記憶卡。
 
 - **晶片**：Apple Silicon（M 系列）
@@ -150,18 +163,18 @@ XXH64 是內容差異檢查，不是加密簽名；通過後仍應人工抽查�
 
 ## 價格
 
-光渡採用買斷制，沒有訂閱。以下價格自正式版開售起生效；開售前，目前公開的 v0.2.2 仍可免費使用。
+光渡採用買斷制，沒有訂閱。專案管理與資料夾預設永久免費，每類工作可以先免費試用 3 次，滿意再買；在 [lightferry.app](https://lightferry.app/zh-tw/pricing/) 或 App 內購買。拾光 v0.2.2 及更早版本不會到期，可繼續免費使用。
 
 | 方案 | 價格 | 包含 |
 | --- | --- | --- |
-| 免費版 | $0 | 專案、歷史紀錄、報告與預設始終可用；拷卡與檔案拷貝、封存等每類工作各可免費使用 3 次，不限天數 |
+| 免費版 | $0 | 專案、歷史紀錄、報告與預設始終可用；拷卡與拷貝、封存等每類工作各可免費使用 3 次，不限天數 |
 | 永久版 | $59，首發首月 $49 | 2 台 Mac 同時使用，永久使用；目前大版本永久免費更新，購買後一年內發布的新大版本也免費 |
 | 大版本升級 | $29 / 次 | 升級到之後的新大版本，涵蓋訂單內所有 Mac，跳版本同價，不自動扣款 |
-| 30 天短期卡 | $5 / 台 | 在 App 內購買，不自動續費 |
-| 增購裝置 | $29 / 台 | 為永久版訂單增加一台 Mac |
+| 30 天短期卡 | $10 / 台 | 在 App 內購買，不自動續費 |
+| 增購名額 | $19 / 台 | 為永久版訂單增加 Mac（每份授權含原有 2 台最多共 4 台） |
 
 - 所有付費產品購買後 14 天內可全額退款，不問原因。
-- 由 Dodo Payments 以美元收款；可依結帳時的匯率以銀行卡等方式付款。
+- 由 Creem 以美元收款；可透過銀行卡、Apple Pay、Google Pay 或支付寶付款。
 - 購買時取得的權益，不會因日後的銷售政策調整而收回。
 
 ## 常見問題
@@ -169,7 +182,7 @@ XXH64 是內容差異檢查，不是加密簽名；通過後仍應人工抽查�
 <details>
 <summary><strong>Mac 提示無法開啟怎麼辦？</strong></summary>
 
-目前公開測試版尚未通過 Apple 公證。確認檔案來自本倉庫 Releases 後，依上方「開始使用」第 2 步在「隱私權與安全性」選擇「仍要打開」。[查看安裝協助](https://getshiguang.pages.dev/download/#download-help)
+光渡已通過 Apple 公證，正常情況下首次開啟只需確認一次。如果仍被阻止，請確認安裝包來自本倉庫 Releases 或 lightferry.app，再到「系統設定 → 隱私權與安全性」查看提示。[查看安裝協助](https://lightferry.app/zh-tw/download/#download-help)
 
 </details>
 
@@ -183,39 +196,47 @@ XXH64 是內容差異檢查，不是加密簽名；通過後仍應人工抽查�
 <details>
 <summary><strong>驗證未通過，可以格式化原卡嗎？</strong></summary>
 
-先不要格式化。檢查每個目標碟的結果，保留原卡與正確副本，依失敗紀錄排查並重試。進度 100% 不代表所有副本都已通過驗證。[瞭解完成後的檢查](https://getshiguang.pages.dev/guides/first-ingest/)
+先不要格式化。檢查每個目標碟的結果，保留原卡與正確副本，依失敗紀錄排查並重試。進度 100% 不代表所有副本都已通過驗證。[瞭解完成後的檢查](https://lightferry.app/zh-tw/guides/first-ingest/)
 
 </details>
 
 <details>
 <summary><strong>可以直接拷到 NAS 嗎？</strong></summary>
 
-拷卡需先寫入本機或外接磁碟，再從專案詳情封存至 NAS。[查看 NAS 封存指南](https://getshiguang.pages.dev/guides/connect-nas/)
+拷卡需先寫入本機或外接磁碟，再從專案詳情封存至 NAS。[查看 NAS 封存指南](https://lightferry.app/zh-tw/guides/connect-nas/)
 
 </details>
 
 <details>
 <summary><strong>本機封存完成，就是網盤上傳成功嗎？</strong></summary>
 
-不是。光渡確認的是本機拷貝與驗證，請在網盤用戶端與雲端另外確認上傳結果。[查看網盤同步指南](https://getshiguang.pages.dev/guides/baidu-sync/)
+不是。光渡確認的是本機拷貝與驗證，請在網盤用戶端與雲端另外確認上傳結果。[查看網盤同步指南](https://lightferry.app/zh-tw/guides/cloud-sync/)
+
+</details>
+
+<details>
+<summary><strong>從拾光升級需要注意什麼？</strong></summary>
+
+從拾光 0.2.x 升級到光渡 1.0 後改為收費模式，每類工作先有 3 次免費試用（歷史工作不扣次）。專案、分組、設定、預設與中斷拷貝紀錄會自動遷移，舊資料目錄原樣保留（回裝 0.2.2 仍可讀取舊資料庫，但 1.0 的新改動不會反向同步）。升級後「應用程式」裡的外層包名仍叫「拾光」，可以直接在 Finder 裡改名為「光渡」，不影響後續 App 內自動更新。第一次存取外接磁碟和網路磁碟時 macOS 會再詢問一次，請選擇「允許」。
 
 </details>
 
 <details>
 <summary><strong>支援 Intel Mac、Windows 嗎？收費嗎？</strong></summary>
 
-目前公開版僅支援 Apple 晶片 Mac。光渡即將開始收費，採用買斷制：免費版每類工作可用 3 次，永久版 $59（首發首月 $49），詳見[價格](#價格)。開售前，目前公開的 v0.2.2 仍可免費使用。
+目前僅支援 Apple 晶片 Mac。光渡採用買斷制：專案管理與資料夾預設永久免費，每類工作可免費試用 3 次，永久版 $59（首發首月 $49），詳見[價格](#價格)。
 
 </details>
 
-## 目前版本 · v0.2.2
+## 目前版本 · v1.0.0
 
-- 改善工作報告的版面、分頁與內容呈現。
-- 完成通知可開啟對應報告，點擊與待開啟報告持久保存。
-- 清除通知、結束或重新啟動後不會重送已確認的提醒；結果不明時暫停自動重送。
-- 修正相關設定開關的停用狀態。
+- 拾光更名為光渡，安裝包通過 Apple Developer ID 簽名與公證。
+- 剪輯專案銜接：拷卡驗證通過後自動送入或產生 Final Cut Pro、DaVinci Resolve、Premiere Pro 或 CapCut 專案。
+- 影片審片與剪輯代理：轉出 H.264 審片小樣或 ProRes 代理並連回原片；Log 素材可直連廠商官方 LUT 轉成 Rec.709 審片小樣。
+- 更嚴格的拷卡驗證：可選略過快取完整回讀或邊拷邊驗，完成頁直接給出能否格式化的結論，並可匯出 ASC MHL 清單。
+- 拷完郵件通知與網頁授權管理：工作結束後寄信告知記憶卡能不能格式化，可在官網管理與找回授權。
 
-[完整版本說明](https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2) · [所有版本](./VERSIONS.md)
+[完整版本說明](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0) · [所有版本](./VERSIONS.md)
 
 <details>
 <summary>儲存裝置與網路資料夾</summary>
@@ -227,7 +248,7 @@ XXH64 是內容差異檢查，不是加密簽名；通過後仍應人工抽查�
 
 ## 幫助與回饋
 
-- **[使用指南](https://getshiguang.pages.dev/guides/)**：安裝、拷卡、恢復中斷工作與封存的圖文步驟。
+- **[使用指南](https://lightferry.app/zh-tw/guides/)**：安裝、拷卡、恢復中斷工作與封存的圖文步驟。
 - **[回報問題或建議](https://github.com/Sorasukiawa/lightferry/issues/new/choose)**：依表單填寫版本、macOS 與晶片型號、來源及目的地格式、重現步驟和錯誤文字。
 - **[提問與交流](https://github.com/Sorasukiawa/lightferry/discussions)**：使用問題、工作流程與想法。
 - **不便公開的問題**：寄信到 [support@lightferry.app](mailto:support@lightferry.app)；安全問題請看 [SECURITY.md](./SECURITY.md)。
