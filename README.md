@@ -1,4 +1,4 @@
-[简体中文](./README.md) · [繁體中文](./README.zh-TW.md) · [English](./README.en.md) · [日本語](./README.ja.md)
+[简体中文](./README.md) · [繁體中文](./README.zh-TW.md) · [English](./README.en.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [Español](./README.es.md)
 
 <p align="center">
   <picture>
@@ -18,14 +18,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v0.2.2/Lightferry_0.2.2_aarch64.dmg"><strong>下载 v0.2.2 · Apple Silicon Mac</strong></a>
-  &nbsp;·&nbsp; <a href="https://getshiguang.pages.dev/guides/">使用指南</a>
-  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2">本次更新</a>
+  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.0/Lightferry_1.0.0_aarch64.dmg"><strong>下载 v1.0.0 · Apple Silicon Mac</strong></a>
+  &nbsp;·&nbsp; <a href="https://lightferry.app/zh-cn/guides/">使用指南</a>
+  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0">本次更新</a>
+  &nbsp;·&nbsp; <a href="https://lightferry.app/zh-cn/pricing/">购买</a>
   &nbsp;·&nbsp; <a href="./VERSIONS.md">全部版本</a>
 </p>
 
-> [!IMPORTANT]
-> 安装包目前采用 ad-hoc 签名，尚无 Apple Developer ID 签名或 Apple 公证。请只从[本仓库 Releases](https://github.com/Sorasukiawa/lightferry/releases) 下载，首次打开的步骤见[开始使用](#开始使用)。
+> [!NOTE]
+> 安装包已通过 Apple Developer ID 签名与公证。请从[本仓库 Releases](https://github.com/Sorasukiawa/lightferry/releases) 或 [lightferry.app](https://lightferry.app/zh-cn/download/) 下载。
 
 <img src="./screenshot-ingest-zh-CN.webp" alt="光渡拷卡页：识别到存储卡后选择项目与机位，同时写入两块硬盘，并选择完整校验">
 
@@ -44,6 +45,18 @@
       <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/copy-dawn.svg"><img src="./brand/icons/copy-ink.svg" width="32" height="32" alt=""></picture><br>
       <strong>文件与文件夹拷贝</strong><br>
       <sub>从 Finder 拖入或选择来源，保留目录层级，原样写入一个或多个目的地；开始前预检空间。</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/projects-dawn.svg"><img src="./brand/icons/projects-ink.svg" width="32" height="32" alt=""></picture><br>
+      <strong>剪辑工程衔接</strong><br>
+      <sub>新建项目可选 Final Cut Pro、达芬奇、Premiere Pro、剪映或 CapCut，拷卡校验通过后自动送入或生成工程。</sub>
+    </td>
+    <td valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/video-dawn.svg"><img src="./brand/icons/video-ink.svg" width="32" height="32" alt=""></picture><br>
+      <strong>视频审片与代理</strong><br>
+      <sub>把视频转成 H.264 审片小样或 ProRes 剪辑代理，可在剪辑软件里回链原片；Log 素材可直连厂商官方 LUT 并核对 SHA-256，转成 Rec.709 审片小样。</sub>
     </td>
   </tr>
   <tr>
@@ -73,8 +86,8 @@
   <tr>
     <td valign="top">
       <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/report-dawn.svg"><img src="./brand/icons/report-ink.svg" width="32" height="32" alt=""></picture><br>
-      <strong>任务报告</strong><br>
-      <sub>按项目、日期、类型与状态查找任务结果，导出离线 HTML 或多页 PDF；完成通知可直接打开对应报告。</sub>
+      <strong>任务报告与邮件提醒</strong><br>
+      <sub>按项目、日期、类型与状态查找任务结果，导出离线 HTML、多页 PDF 与 ASC MHL 清单；拷完可发邮件告知卡能不能格式化，完成通知可直接打开对应报告。</sub>
     </td>
     <td valign="top">
       <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/presets-dawn.svg"><img src="./brand/icons/presets-ink.svg" width="32" height="32" alt=""></picture><br>
@@ -116,9 +129,9 @@
 
 每个项目一张卡片，显示类型、拍摄日、素材量与文件数；拷卡完成后还会标出是否双备份、是否通过校验。可以按进行中、已完成、已归档与回收站筛选，也可以分组。
 
-### 文件拷贝
+### 拷贝
 
-<img src="./screenshot-copy-zh-CN.webp" alt="光渡文件拷贝页：一个示例来源文件夹、两个位于不同硬盘的目的地，以及选中的完整校验">
+<img src="./screenshot-copy-zh-CN.webp" alt="光渡拷贝页：一个示例来源文件夹、两个位于不同硬盘的目的地，以及选中的完整校验">
 
 文件与文件夹原样拷到一个或多个位置，保留目录层级；开始前显示每个目的地的剩余空间与所需空间，拷完逐份校验。
 
@@ -139,7 +152,7 @@ XXH64 用于检测内容差异，不是加密签名；通过后仍应人工抽�
 ## 开始使用
 
 1. 在上方下载 **Apple Silicon Mac** 版 DMG；Intel Mac 与 Windows 暂无公开安装包。可在 ** → 关于本机** 查看芯片。
-2. 打开 DMG，把光渡拖进「应用程序」。首次启动若被 macOS 拦截，前往 **系统设置 → 隐私与安全性**，核对应用后选择「仍要打开」。无需关闭 Gatekeeper。
+2. 打开 DMG，把光渡拖进「应用程序」。首次打开时 macOS 会确认这是从互联网下载的 App，选择「打开」即可。
 3. 在设置里选好工作盘与备份盘，新建项目，插卡即可开始。重要素材请保留原卡及另一份可靠备份，确认副本后再格式化卡片。
 
 - **芯片**：Apple Silicon（M 系列）
@@ -150,18 +163,18 @@ XXH64 用于检测内容差异，不是加密签名；通过后仍应人工抽�
 
 ## 价格
 
-光渡采用买断制，没有订阅。以下价格自正式版开售起生效；开售前，当前公开的 v0.2.2 仍可免费使用。
+光渡采用买断制，没有订阅。项目管理与目录预设永久免费，每类任务可以先免费试用 3 次，满意再买；在 [lightferry.app](https://lightferry.app/zh-cn/pricing/) 或 App 内购买。拾光 v0.2.2 及更早版本不会到期，可继续免费使用。
 
 | 方案 | 价格 | 包含 |
 | --- | --- | --- |
-| 免费版 | $0 | 项目、历史记录、报告与预设始终可用；拷卡与文件拷贝、归档等每类任务各可免费使用 3 次，不限天数 |
+| 免费版 | $0 | 项目、历史记录、报告与预设始终可用；拷卡与拷贝、归档等每类任务各可免费使用 3 次，不限天数 |
 | 永久版 | $59，首发首月 $49 | 2 台 Mac 同时使用，永久使用；当前大版本永久免费更新，购买后一年内发布的新大版本也免费 |
 | 大版本升级 | $29 / 次 | 升级到之后的新大版本，覆盖订单内所有 Mac，跳版本同价，不自动扣费 |
-| 30 天短期卡 | $5 / 台 | 在 App 内购买，不自动续费 |
-| 增购设备 | $29 / 台 | 为永久版订单增加一台 Mac |
+| 30 天短期卡 | $10 / 台 | 在 App 内购买，不自动续费 |
+| 增购名额 | $19 / 台 | 为永久版订单增加 Mac（每份授权含自带 2 台最多共 4 台） |
 
 - 所有付费产品购买后 14 天内可全额退款，不问原因。
-- 由 Dodo Payments 以美元收款；中国大陆可按结账时的汇率用微信或银行卡支付。
+- 由 Creem 以美元收款；中国大陆可用支付宝或银行卡付款。
 - 购买时获得的权益，不会因以后的销售政策调整而收回。
 
 ## 常见问题
@@ -169,7 +182,7 @@ XXH64 用于检测内容差异，不是加密签名；通过后仍应人工抽�
 <details>
 <summary><strong>Mac 提示无法打开怎么办？</strong></summary>
 
-当前公开测试版尚未通过 Apple 公证。确认文件来自本仓库 Releases 后，按上方「开始使用」第 2 步在「隐私与安全性」里选择「仍要打开」。[查看安装帮助](https://getshiguang.pages.dev/download/#download-help)
+光渡已通过 Apple 公证，正常情况下首次打开只需确认一次。如果仍被拦截，请确认安装包来自本仓库 Releases 或 lightferry.app，再到「系统设置 → 隐私与安全性」查看提示。[查看安装帮助](https://lightferry.app/zh-cn/download/#download-help)
 
 </details>
 
@@ -183,39 +196,47 @@ XXH64 用于检测内容差异，不是加密签名；通过后仍应人工抽�
 <details>
 <summary><strong>校验没有通过，能格式化原卡吗？</strong></summary>
 
-先不要格式化。检查每一个目标盘的结果，保留原卡和正确副本，按失败记录排查并重试。进度到 100% 不等于所有副本都已通过校验。[了解完成后的检查](https://getshiguang.pages.dev/guides/first-ingest/)
+先不要格式化。检查每一个目标盘的结果，保留原卡和正确副本，按失败记录排查并重试。进度到 100% 不等于所有副本都已通过校验。[了解完成后的检查](https://lightferry.app/zh-cn/guides/first-ingest/)
 
 </details>
 
 <details>
 <summary><strong>可以直接拷到 NAS 吗？</strong></summary>
 
-拷卡需要先写入本地或外接盘，再从项目详情归档到 NAS。[查看 NAS 归档指南](https://getshiguang.pages.dev/guides/connect-nas/)
+拷卡需要先写入本地或外接盘，再从项目详情归档到 NAS。[查看 NAS 归档指南](https://lightferry.app/zh-cn/guides/connect-nas/)
 
 </details>
 
 <details>
 <summary><strong>本地归档完成，就是网盘上传成功了吗？</strong></summary>
 
-不是。光渡确认的是本地复制和校验，网盘上传是否完成，需要在网盘客户端和云端另外确认。[查看网盘同步指南](https://getshiguang.pages.dev/guides/baidu-sync/)
+不是。光渡确认的是本地复制和校验，网盘上传是否完成，需要在网盘客户端和云端另外确认。[查看网盘同步指南](https://lightferry.app/zh-cn/guides/cloud-sync/)
+
+</details>
+
+<details>
+<summary><strong>从拾光升级需要注意什么？</strong></summary>
+
+从拾光 0.2.x 升级到光渡 1.0 后改为收费模式，每类任务先有 3 次免费试用（历史任务不扣次）。项目、分组、设置、预设与中断拷贝记录会自动迁移，旧数据目录原样保留（回装 0.2.2 仍可读取旧库，但 1.0 的新改动不会反向同步）。升级后「应用程序」里的外层包名仍叫「拾光」，可以直接在 Finder 里改名为「光渡」，不影响后续应用内自动更新。第一次访问外接盘和网络盘时 macOS 会再询问一次，请选择「允许」。
 
 </details>
 
 <details>
 <summary><strong>支持 Intel Mac、Windows 吗？收费吗？</strong></summary>
 
-当前公开版仅支持 Apple 芯片 Mac。光渡即将开始收费，采用买断制：免费版每类任务可用 3 次，永久版 $59（首发首月 $49），详见[价格](#价格)。开售前，当前公开的 v0.2.2 仍可免费使用。
+当前仅支持 Apple 芯片 Mac。光渡采用买断制：项目管理与目录预设永久免费，每类任务可免费试用 3 次，永久版 $59（首发首月 $49），详见[价格](#价格)。
 
 </details>
 
-## 当前版本 · v0.2.2
+## 当前版本 · v1.0.0
 
-- 改进任务报告的布局、分页与内容展示。
-- 完成通知可打开对应报告，点击与待打开报告持久保存。
-- 清除通知、退出或重启后不会重复发送已确认的提醒；结果不明时暂停自动重发。
-- 修复设置子开关的禁用状态。
+- 拾光改名光渡，安装包通过 Apple Developer ID 签名与公证。
+- 剪辑工程衔接：拷卡校验通过后自动送入或生成 Final Cut Pro、达芬奇、Premiere Pro、剪映或 CapCut 工程。
+- 视频审片与剪辑代理：转出 H.264 审片小样或 ProRes 代理并回链原片；Log 素材可直连厂商官方 LUT 转成 Rec.709 审片小样。
+- 更严格的拷卡校验：可选绕缓存完整回读或边拷边验，完成页直接给出能否格式化的结论，并可导出 ASC MHL 清单。
+- 拷完邮件提醒与网页授权管理：任务结束后发邮件告知卡能不能格式化，可在官网管理与找回授权。
 
-[阅读完整发布说明](https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2) · [浏览所有版本](./VERSIONS.md)
+[阅读完整发布说明](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0) · [浏览所有版本](./VERSIONS.md)
 
 <details>
 <summary>存储盘与网络目录</summary>
@@ -227,7 +248,7 @@ XXH64 用于检测内容差异，不是加密签名；通过后仍应人工抽�
 
 ## 帮助与反馈
 
-- **[使用指南](https://getshiguang.pages.dev/guides/)**：安装、拷卡、恢复中断任务与归档的图文步骤。
+- **[使用指南](https://lightferry.app/zh-cn/guides/)**：安装、拷卡、恢复中断任务与归档的图文步骤。
 - **[提交问题或建议](https://github.com/Sorasukiawa/lightferry/issues/new/choose)**：按表单填写版本、macOS 与芯片型号、来源和目标格式、复现步骤及错误文字。
 - **[提问与交流](https://github.com/Sorasukiawa/lightferry/discussions)**：使用问题、工作流与想法。
 - **不便公开的问题**：发邮件到 [support@lightferry.app](mailto:support@lightferry.app)；安全问题请看 [SECURITY.md](./SECURITY.md)。

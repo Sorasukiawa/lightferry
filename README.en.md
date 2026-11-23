@@ -1,4 +1,4 @@
-[简体中文](./README.md) · [繁體中文](./README.zh-TW.md) · [English](./README.en.md) · [日本語](./README.ja.md)
+[简体中文](./README.md) · [繁體中文](./README.zh-TW.md) · [English](./README.en.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [Español](./README.es.md)
 
 <p align="center">
   <picture>
@@ -18,14 +18,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v0.2.2/Lightferry_0.2.2_aarch64.dmg"><strong>Download v0.2.2 · Apple Silicon Mac</strong></a>
-  &nbsp;·&nbsp; <a href="https://getshiguang.pages.dev/guides/">User guides</a>
-  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2">What's new</a>
+  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.0/Lightferry_1.0.0_aarch64.dmg"><strong>Download v1.0.0 · Apple Silicon Mac</strong></a>
+  &nbsp;·&nbsp; <a href="https://lightferry.app/guides/">User guides</a>
+  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0">What's new</a>
+  &nbsp;·&nbsp; <a href="https://lightferry.app/pricing/">Buy</a>
   &nbsp;·&nbsp; <a href="./VERSIONS.md">All versions</a>
 </p>
 
-> [!IMPORTANT]
-> Installers currently use an ad-hoc signature, without Apple Developer ID signing or notarization. Download only from [this repository's Releases](https://github.com/Sorasukiawa/lightferry/releases). See [Get started](#get-started) for the first launch.
+> [!NOTE]
+> Installers are signed with Apple Developer ID and notarized. Download from [this repository's Releases](https://github.com/Sorasukiawa/lightferry/releases) or [lightferry.app](https://lightferry.app/download/).
 
 <img src="./screenshot-ingest-en.webp" alt="Lightferry ingest screen: a camera card detected, a project and camera selected, writing to two drives with full verification">
 
@@ -44,6 +45,18 @@
       <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/copy-dawn.svg"><img src="./brand/icons/copy-ink.svg" width="32" height="32" alt=""></picture><br>
       <strong>File and folder copy</strong><br>
       <sub>Drag from Finder or pick a source, keep the folder structure, and write it as is to one or more destinations, with a capacity preflight before you start.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/projects-dawn.svg"><img src="./brand/icons/projects-ink.svg" width="32" height="32" alt=""></picture><br>
+      <strong>NLE project handoff</strong><br>
+      <sub>Choose Final Cut Pro, DaVinci Resolve, Premiere Pro, or CapCut when creating a project. After a verified ingest, footage is sent to the editor or a project file is generated automatically.</sub>
+    </td>
+    <td valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/video-dawn.svg"><img src="./brand/icons/video-ink.svg" width="32" height="32" alt=""></picture><br>
+      <strong>Review copies and proxies</strong><br>
+      <sub>Convert clips to H.264 review copies or ProRes proxies that relink to the originals in your editor. Log footage can use official camera-maker LUTs, downloaded directly and checked by SHA-256, for Rec. 709 review copies.</sub>
     </td>
   </tr>
   <tr>
@@ -73,8 +86,8 @@
   <tr>
     <td valign="top">
       <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/report-dawn.svg"><img src="./brand/icons/report-ink.svg" width="32" height="32" alt=""></picture><br>
-      <strong>Task reports</strong><br>
-      <sub>Find results by project, date, type, and status, and export an offline HTML or multipage PDF. Completion notifications open the matching report.</sub>
+      <strong>Task reports and email alerts</strong><br>
+      <sub>Find results by project, date, type, and status, and export an offline HTML or multipage PDF plus an ASC MHL manifest. Completion emails say whether a card is safe to format, and notifications open the matching report.</sub>
     </td>
     <td valign="top">
       <picture><source media="(prefers-color-scheme: dark)" srcset="./brand/icons/presets-dawn.svg"><img src="./brand/icons/presets-ink.svg" width="32" height="32" alt=""></picture><br>
@@ -116,9 +129,9 @@
 
 One card per project shows the type, shoot date, media size, and file count. After an ingest, it also shows whether the project is dual-backed and verified. Filter by active, completed, archived, and trash, or group projects.
 
-### File copy
+### Copy
 
-<img src="./screenshot-copy-en.webp" alt="Lightferry file copy screen: one sample source folder, two destinations on separate drives, and full verification selected">
+<img src="./screenshot-copy-en.webp" alt="Lightferry Copy screen: one sample source folder, two destinations on separate drives, and full verification selected">
 
 Copy files and folders as they are to one or more locations, keeping the folder structure. Free and required space are shown for each destination before you start, and every copy is verified afterwards.
 
@@ -139,7 +152,7 @@ XXH64 detects content differences; it is not a cryptographic signature. Spot-che
 ## Get started
 
 1. Download the **Apple Silicon Mac** DMG above. There is no public Intel Mac or Windows installer. Check your chip in **Apple menu → About This Mac**.
-2. Open the DMG and drag Lightferry into Applications. If macOS blocks the first launch, verify the app in **System Settings → Privacy & Security** and choose **Open Anyway**. You do not need to disable Gatekeeper.
+2. Open the DMG and drag Lightferry into Applications. On first launch, macOS confirms that the app was downloaded from the internet; choose Open.
 3. Set your working and backup disks in Settings, create a project, and insert a card. Keep the original card and another reliable backup for important media; format the card only after checking the copies.
 
 - **Chip**: Apple Silicon (M series)
@@ -150,18 +163,18 @@ Active ingest, file-copy, or archive tasks block installation of an update.
 
 ## Pricing
 
-Lightferry is a one-time purchase with no subscription. These prices apply from the paid launch; until then, the current public v0.2.2 remains free.
+Lightferry is a one-time purchase with no subscription. Project organization and folder presets are free forever; try each task type free 3 times first, then buy at [lightferry.app](https://lightferry.app/pricing/) or in the app. Shiguang v0.2.2 and earlier never expire and remain free.
 
 | Plan | Price | Includes |
 | --- | --- | --- |
-| Free | $0 | Projects, history, reports, and presets always available; 3 free uses of each task type, such as card ingest and file copy or archiving, with no time limit |
+| Free | $0 | Projects, history, reports, and presets always available; 3 free uses of each task type, such as card offload and copy, or archiving, with no time limit |
 | Perpetual | $59, $49 in the launch month | 2 Macs at once, perpetual use, free updates for your major version plus any new major version released within a year |
 | Major upgrade | $29 each | Upgrade to a later major version for every Mac on the order; same price however many you skip; never automatic |
-| 30-day pass | $5 / Mac | Bought in the app; does not renew automatically |
-| Additional Mac | $29 / Mac | Adds one Mac to a perpetual order |
+| 30-day pass | $10 / Mac | Bought in the app; does not renew automatically |
+| Extra Mac seat | $19 / Mac | Adds Macs to a perpetual order (each license includes 2 Macs, up to 4 in total) |
 
 - Every paid product can be fully refunded within 14 days of purchase, no questions asked.
-- Payments are processed in US dollars by Dodo Payments.
+- Payments are processed in US dollars by Creem.
 - Rights you purchase are never taken back by later changes to sales policy.
 
 ## FAQ
@@ -169,7 +182,7 @@ Lightferry is a one-time purchase with no subscription. These prices apply from 
 <details>
 <summary><strong>What if macOS cannot open the app?</strong></summary>
 
-The public beta is not notarized by Apple. After confirming the file came from this repository's Releases, follow step 2 of Get started and choose Open Anyway in Privacy & Security. [Installation help](https://getshiguang.pages.dev/download/#download-help)
+Lightferry is notarized by Apple, so normally you only confirm once on first launch. If macOS still blocks it, make sure the installer came from this repository's Releases or lightferry.app, then check the message in System Settings → Privacy & Security. [Installation help](https://lightferry.app/download/#download-help)
 
 </details>
 
@@ -183,39 +196,47 @@ No. Keep the original card, existing copies, and task history. Reconnect the ori
 <details>
 <summary><strong>Can I format my card if verification failed?</strong></summary>
 
-Not yet. Check every destination, keep the card and valid copies, and use the failure record to investigate and retry. A 100% progress bar does not mean every copy passed verification. [What to check after an ingest](https://getshiguang.pages.dev/guides/first-ingest/)
+Not yet. Check every destination, keep the card and valid copies, and use the failure record to investigate and retry. A 100% progress bar does not mean every copy passed verification. [What to check after an ingest](https://lightferry.app/guides/first-ingest/)
 
 </details>
 
 <details>
 <summary><strong>Can I ingest directly to a NAS?</strong></summary>
 
-Ingest to a local or external drive first, then archive to your NAS from project details. [NAS archive guide](https://getshiguang.pages.dev/guides/connect-nas/)
+Ingest to a local or external drive first, then archive to your NAS from project details. [NAS archive guide](https://lightferry.app/guides/connect-nas/)
 
 </details>
 
 <details>
 <summary><strong>Does local archiving mean the cloud upload is complete?</strong></summary>
 
-No. Lightferry confirms local copying and verification. Check the upload separately in your cloud client and in the cloud. [Cloud sync guide](https://getshiguang.pages.dev/guides/baidu-sync/)
+No. Lightferry confirms local copying and verification. Check the upload separately in your cloud client and in the cloud. [Cloud sync guide](https://lightferry.app/guides/cloud-sync/)
+
+</details>
+
+<details>
+<summary><strong>What should I know before upgrading from Shiguang?</strong></summary>
+
+Upgrading from Shiguang 0.2.x to Lightferry 1.0 switches to paid licensing, and each task type starts with 3 free trial tasks (past tasks do not count). Projects, groups, settings, presets, and interrupted copy records migrate automatically, and the old data folder is kept untouched (reinstalling 0.2.2 still opens the old library, but changes made in 1.0 do not sync back). After upgrading, the app bundle in Applications keeps the outer name "Shiguang"; you can rename it to "Lightferry" in Finder without affecting future in-app updates. The first time Lightferry accesses external and network drives, macOS asks once more; choose Allow.
 
 </details>
 
 <details>
 <summary><strong>Does it support Intel or Windows, and how much does it cost?</strong></summary>
 
-The public release is for Apple silicon Macs only. Paid sales are about to begin with a one-time purchase: the free tier includes 3 uses of each task type, and the perpetual license is $59 ($49 in the launch month). See [Pricing](#pricing). Until sales open, the current public v0.2.2 remains free.
+Only Apple silicon Macs are supported. Lightferry is a one-time purchase: project organization and presets are free forever, each task type includes 3 free trial tasks, and the perpetual license is $59 ($49 in the launch month). See [Pricing](#pricing).
 
 </details>
 
-## Current release · v0.2.2
+## Current release · v1.0.0
 
-- Clearer task-report layouts, pagination, and content.
-- Completion notifications open the matching report; clicks and pending reports persist.
-- Confirmed reminders are not resent after clearing notifications or restarting; unknown outcomes pause automatic retries.
-- Related settings switches correctly respect their disabled state.
+- Shiguang is now Lightferry, signed with Apple Developer ID and notarized.
+- NLE project handoff: after a verified ingest, footage goes straight to Final Cut Pro, DaVinci Resolve, Premiere Pro, or CapCut, or a project file is generated.
+- Review copies and editing proxies: H.264 review copies or ProRes proxies that relink to the originals; Log footage can use official camera-maker LUTs for Rec. 709 review copies.
+- Stricter card verification: full cache-bypass read-back or verify-while-copying, a plain "Safe to format" verdict on the completion screen, and ASC MHL manifests.
+- Completion email alerts and a web license portal: get an email saying whether a card is safe to format, and manage or recover licenses on the website.
 
-[Full release notes](https://github.com/Sorasukiawa/lightferry/releases/tag/v0.2.2) · [All versions](./VERSIONS.md)
+[Full release notes](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0) · [All versions](./VERSIONS.md)
 
 <details>
 <summary>Storage and network folders</summary>
@@ -227,7 +248,7 @@ The public release is for Apple silicon Macs only. Paid sales are about to begin
 
 ## Help and feedback
 
-- **[User guides](https://getshiguang.pages.dev/guides/)**: step-by-step guides for installing, ingesting, recovering interrupted tasks, and archiving.
+- **[User guides](https://lightferry.app/guides/)**: step-by-step guides for installing, ingesting, recovering interrupted tasks, and archiving.
 - **[Report an issue or request a feature](https://github.com/Sorasukiawa/lightferry/issues/new/choose)**: the form asks for the app version, macOS version and chip, source and destination formats, reproduction steps, and error text.
 - **[Questions and ideas](https://github.com/Sorasukiawa/lightferry/discussions)**: usage questions, workflows, and ideas.
 - **Private matters**: email [support@lightferry.app](mailto:support@lightferry.app). For security issues, see [SECURITY.md](./SECURITY.md).

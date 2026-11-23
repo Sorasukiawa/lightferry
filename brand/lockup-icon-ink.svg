@@ -12,7 +12,7 @@
   <g transform="translate(110.408 22.408) scale(0.13592)"><rect x="100" y="118" width="824" height="824" rx="186" fill="#000000" opacity="0.32" filter="url(#mark-shadow)"/>
     <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#mark-tile)"/>
     <circle cx="512" cy="500" r="300" fill="#E2AC4A" opacity="0.3" filter="url(#mark-glow)" clip-path="url(#mark-clip)"/>
-    <g transform="translate(192 180) scale(10)"><g id="shiguang-shape">
+    <g transform="translate(192 180) scale(10)"><g id="lightferry-shape">
     <path id="light" fill="url(#mark-light)" d="M8.76 38A24 24 0 1 1 54.25 41C43 48.5 19 31.5 8.76 38Z"/>
     <path id="water" fill="url(#mark-water)" d="M11.33 44.2C21.5 38 44.5 53 52.04 45.2A24 24 0 0 1 11.33 44.2Z"/>
   </g></g>
