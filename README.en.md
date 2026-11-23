@@ -168,7 +168,7 @@ Lightferry is a one-time purchase with no subscription. Project organization and
 | Plan | Price | Includes |
 | --- | --- | --- |
 | Free | $0 | Projects, history, reports, and presets always available; 3 free uses of each task type, such as card offload and copy, or archiving, with no time limit |
-| Perpetual | $59, $49 in the launch month | 2 Macs at once, perpetual use, free updates for your major version plus any new major version released within a year |
+| Perpetual | $59, $49 during the launch period | 2 Macs at once, perpetual use, free updates for your major version plus any new major version released within a year |
 | Major upgrade | $29 each | Upgrade to a later major version for every Mac on the order; same price however many you skip; never automatic |
 | 30-day pass | $10 / Mac | Bought in the app; does not renew automatically |
 | Extra Mac seat | $19 / Mac | Adds Macs to a perpetual order (each license includes 2 Macs, up to 4 in total) |
@@ -224,7 +224,7 @@ Upgrading from Shiguang 0.2.x to Lightferry 1.0 switches to paid licensing, and 
 <details>
 <summary><strong>Does it support Intel or Windows, and how much does it cost?</strong></summary>
 
-Only Apple silicon Macs are supported. Lightferry is a one-time purchase: project organization and presets are free forever, each task type includes 3 free trial tasks, and the perpetual license is $59 ($49 in the launch month). See [Pricing](#pricing).
+Only Apple silicon Macs are supported. Lightferry is a one-time purchase: project organization and presets are free forever, each task type includes 3 free trial tasks, and the perpetual license is $59 ($49 during the launch period). See [Pricing](#pricing).
 
 </details>
 
