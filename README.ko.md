@@ -18,9 +18,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.0/Lightferry_1.0.0_aarch64.dmg"><strong>v1.0.0 다운로드 · Apple Silicon Mac</strong></a>
+  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.1/Lightferry_1.0.1_aarch64.dmg"><strong>v1.0.1 다운로드 · Apple Silicon Mac</strong></a>
   &nbsp;·&nbsp; <a href="https://lightferry.app/ko/guides/">사용 가이드</a>
-  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0">업데이트 내용</a>
+  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.1">업데이트 내용</a>
   &nbsp;·&nbsp; <a href="https://lightferry.app/ko/pricing/">구매</a>
   &nbsp;·&nbsp; <a href="./VERSIONS.md">전체 버전</a>
 </p>
@@ -228,7 +228,9 @@ Shiguang 0.2.x에서 Lightferry 1.0으로 업데이트하면 유료 라이선스
 
 </details>
 
-## 현재 버전 · v1.0.0
+## 현재 버전 · v1.0.1
+
+v1.0.1은 수정 버전입니다. 설정과 프리셋이 파일 손상으로 사라지지 않고, 이미 복사한 카드를 다시 꽂으면 바로 원본 카드를 재확인할 수 있으며, 각 언어 화면과 내보낸 리포트에 간체 중국어가 섞이지 않습니다. 1.0의 주요 내용:
 
 - Shiguang이 Lightferry로 이름을 바꾸고 Apple Developer ID 서명과 공증을 완료했습니다.
 - 편집 프로젝트 연동: 카드 복사 검증을 통과하면 Final Cut Pro, DaVinci Resolve, Premiere Pro, CapCut으로 자동 전송하거나 프로젝트를 생성합니다.
@@ -236,7 +238,7 @@ Shiguang 0.2.x에서 Lightferry 1.0으로 업데이트하면 유료 라이선스
 - 한층 강화된 카드 검증: 캐시를 거치지 않는 전체 재읽기나 복사 중 검증을 선택할 수 있고, 완료 화면에서 포맷 가능 여부를 바로 알려 주며 ASC MHL도 내보낼 수 있습니다.
 - 완료 이메일 알림과 웹 라이선스 관리: 카드를 포맷해도 되는지 이메일로 알려 주고, 웹사이트에서 라이선스를 관리하거나 복구할 수 있습니다.
 
-[전체 릴리스 노트 읽기](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0) · [전체 버전 보기](./VERSIONS.md)
+[전체 릴리스 노트 읽기](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.1) · [전체 버전 보기](./VERSIONS.md)
 
 <details>
 <summary>저장 드라이브 및 네트워크 폴더 안내</summary>

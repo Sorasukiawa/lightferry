@@ -18,9 +18,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.0/Lightferry_1.0.0_aarch64.dmg"><strong>v1.0.0 をダウンロード · Apple Silicon Mac</strong></a>
+  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.1/Lightferry_1.0.1_aarch64.dmg"><strong>v1.0.1 をダウンロード · Apple Silicon Mac</strong></a>
   &nbsp;·&nbsp; <a href="https://lightferry.app/ja/guides/">使い方</a>
-  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0">更新内容</a>
+  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.1">更新内容</a>
   &nbsp;·&nbsp; <a href="https://lightferry.app/ja/pricing/">購入</a>
   &nbsp;·&nbsp; <a href="./VERSIONS.md">すべてのバージョン</a>
 </p>
@@ -228,7 +228,9 @@ XXH64 は内容の差を調べるもので、暗号学的な署名ではあり�
 
 </details>
 
-## 最新版 · v1.0.0
+## 最新版 · v1.0.1
+
+v1.0.1 は修正版です。設定とプリセットがファイルの破損で失われなくなり、取り込み済みのカードを差し直すとすぐに再確認でき、各言語の画面と書き出したレポートに簡体字中国語が混ざらなくなりました。1.0 の主な内容：
 
 - 拾光は光渡になり、Apple Developer ID による署名と公証に対応しました。
 - 編集プロジェクト連携：取り込みの検証後、Final Cut Pro・DaVinci Resolve・Premiere Pro・CapCut へ自動で送るか、プロジェクトを生成します。
@@ -236,7 +238,7 @@ XXH64 は内容の差を調べるもので、暗号学的な署名ではあり�
 - より厳密なカード検証：キャッシュを通さない完全読み戻しやコピー中の検証を選べ、完了画面で初期化してよいかをはっきり示し、ASC MHL も書き出せます。
 - 完了メール通知と Web でのライセンス管理：カードを初期化してよいかをメールで知らせ、ライセンスの管理や再発行はサイトで行えます。
 
-[詳しいリリースノート](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0) · [すべてのバージョン](./VERSIONS.md)
+[詳しいリリースノート](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.1) · [すべてのバージョン](./VERSIONS.md)
 
 <details>
 <summary>保存先とネットワークフォルダー</summary>

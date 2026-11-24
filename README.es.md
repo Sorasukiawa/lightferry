@@ -18,9 +18,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.0/Lightferry_1.0.0_aarch64.dmg"><strong>Descargar v1.0.0 · Mac con chip de Apple</strong></a>
+  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.1/Lightferry_1.0.1_aarch64.dmg"><strong>Descargar v1.0.1 · Mac con chip de Apple</strong></a>
   &nbsp;·&nbsp; <a href="https://lightferry.app/es/guides/">Guías de uso</a>
-  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0">Novedades</a>
+  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.1">Novedades</a>
   &nbsp;·&nbsp; <a href="https://lightferry.app/es/pricing/">Comprar</a>
   &nbsp;·&nbsp; <a href="./VERSIONS.md">Todas las versiones</a>
 </p>
@@ -228,7 +228,9 @@ Actualmente solo es compatible con Mac con chip de Apple. Lightferry es un pago 
 
 </details>
 
-## Versión actual · v1.0.0
+## Versión actual · v1.0.1
+
+v1.0.1 es una versión de correcciones: los ajustes y preajustes sobreviven a un archivo dañado, una tarjeta ya volcada se puede releer en cuanto la vuelves a insertar, y las pantallas traducidas y los informes exportados ya no muestran chino simplificado. Lo principal de 1.0:
 
 - Shiguang ahora es Lightferry, con firma Apple Developer ID y notarización de Apple.
 - Enlace con proyectos de edición: tras un volcado verificado, el material se envía a Final Cut Pro, DaVinci Resolve, Premiere Pro o CapCut, o se genera el proyecto automáticamente.
@@ -236,7 +238,7 @@ Actualmente solo es compatible con Mac con chip de Apple. Lightferry es un pago 
 - Verificación de tarjetas más estricta: relectura completa sin caché o verificación durante la copia, un veredicto claro al terminar sobre si se puede formatear y manifiestos ASC MHL.
 - Avisos por correo al finalizar y portal web de licencias: recibe un correo que indica si la tarjeta se puede formatear y gestiona o recupera tus licencias en la web.
 
-[Leer notas de versión completas](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0) · [Todas las versiones](./VERSIONS.md)
+[Leer notas de versión completas](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.1) · [Todas las versiones](./VERSIONS.md)
 
 <details>
 <summary>Discos de almacenamiento y carpetas de red</summary>

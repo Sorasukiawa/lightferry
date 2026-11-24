@@ -18,15 +18,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.0/Lightferry_1.0.0_aarch64.dmg"><strong>Download v1.0.0 · Apple Silicon Mac</strong></a>
-  &nbsp;·&nbsp; <a href="https://lightferry.app/guides/">User guides</a>
-  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0">What's new</a>
-  &nbsp;·&nbsp; <a href="https://lightferry.app/pricing/">Buy</a>
+  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.1/Lightferry_1.0.1_aarch64.dmg"><strong>Download v1.0.1 · Apple Silicon Mac</strong></a>
+  &nbsp;·&nbsp; <a href="https://lightferry.app/guides/?lang=en">User guides</a>
+  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.1">What's new</a>
+  &nbsp;·&nbsp; <a href="https://lightferry.app/pricing/?lang=en">Buy</a>
   &nbsp;·&nbsp; <a href="./VERSIONS.md">All versions</a>
 </p>
 
 > [!NOTE]
-> Installers are signed with Apple Developer ID and notarized. Download from [this repository's Releases](https://github.com/Sorasukiawa/lightferry/releases) or [lightferry.app](https://lightferry.app/download/).
+> Installers are signed with Apple Developer ID and notarized. Download from [this repository's Releases](https://github.com/Sorasukiawa/lightferry/releases) or [lightferry.app](https://lightferry.app/download/?lang=en).
 
 <img src="./screenshot-ingest-en.webp" alt="Lightferry ingest screen: a camera card detected, a project and camera selected, writing to two drives with full verification">
 
@@ -163,7 +163,7 @@ Active ingest, file-copy, or archive tasks block installation of an update.
 
 ## Pricing
 
-Lightferry is a one-time purchase with no subscription. Project organization and folder presets are free forever; try each task type free 3 times first, then buy at [lightferry.app](https://lightferry.app/pricing/) or in the app. Shiguang v0.2.2 and earlier never expire and remain free.
+Lightferry is a one-time purchase with no subscription. Project organization and folder presets are free forever; try each task type free 3 times first, then buy at [lightferry.app](https://lightferry.app/pricing/?lang=en) or in the app. Shiguang v0.2.2 and earlier never expire and remain free.
 
 | Plan | Price | Includes |
 | --- | --- | --- |
@@ -182,7 +182,7 @@ Lightferry is a one-time purchase with no subscription. Project organization and
 <details>
 <summary><strong>What if macOS cannot open the app?</strong></summary>
 
-Lightferry is notarized by Apple, so normally you only confirm once on first launch. If macOS still blocks it, make sure the installer came from this repository's Releases or lightferry.app, then check the message in System Settings → Privacy & Security. [Installation help](https://lightferry.app/download/#download-help)
+Lightferry is notarized by Apple, so normally you only confirm once on first launch. If macOS still blocks it, make sure the installer came from this repository's Releases or lightferry.app, then check the message in System Settings → Privacy & Security. [Installation help](https://lightferry.app/download/?lang=en#download-help)
 
 </details>
 
@@ -196,21 +196,21 @@ No. Keep the original card, existing copies, and task history. Reconnect the ori
 <details>
 <summary><strong>Can I format my card if verification failed?</strong></summary>
 
-Not yet. Check every destination, keep the card and valid copies, and use the failure record to investigate and retry. A 100% progress bar does not mean every copy passed verification. [What to check after an ingest](https://lightferry.app/guides/first-ingest/)
+Not yet. Check every destination, keep the card and valid copies, and use the failure record to investigate and retry. A 100% progress bar does not mean every copy passed verification. [What to check after an ingest](https://lightferry.app/guides/first-ingest/?lang=en)
 
 </details>
 
 <details>
 <summary><strong>Can I ingest directly to a NAS?</strong></summary>
 
-Ingest to a local or external drive first, then archive to your NAS from project details. [NAS archive guide](https://lightferry.app/guides/connect-nas/)
+Ingest to a local or external drive first, then archive to your NAS from project details. [NAS archive guide](https://lightferry.app/guides/connect-nas/?lang=en)
 
 </details>
 
 <details>
 <summary><strong>Does local archiving mean the cloud upload is complete?</strong></summary>
 
-No. Lightferry confirms local copying and verification. Check the upload separately in your cloud client and in the cloud. [Cloud sync guide](https://lightferry.app/guides/cloud-sync/)
+No. Lightferry confirms local copying and verification. Check the upload separately in your cloud client and in the cloud. [Cloud sync guide](https://lightferry.app/guides/cloud-sync/?lang=en)
 
 </details>
 
@@ -228,7 +228,9 @@ Only Apple silicon Macs are supported. Lightferry is a one-time purchase: projec
 
 </details>
 
-## Current release · v1.0.0
+## Current release · v1.0.1
+
+v1.0.1 is a bug-fix release: settings and presets survive a damaged file, a card you have already offloaded can be re-read as soon as you reinsert it, and localized screens and exported reports no longer show Simplified Chinese. Highlights of 1.0:
 
 - Shiguang is now Lightferry, signed with Apple Developer ID and notarized.
 - NLE project handoff: after a verified ingest, footage goes straight to Final Cut Pro, DaVinci Resolve, Premiere Pro, or CapCut, or a project file is generated.
@@ -236,7 +238,7 @@ Only Apple silicon Macs are supported. Lightferry is a one-time purchase: projec
 - Stricter card verification: full cache-bypass read-back or verify-while-copying, a plain "Safe to format" verdict on the completion screen, and ASC MHL manifests.
 - Completion email alerts and a web license portal: get an email saying whether a card is safe to format, and manage or recover licenses on the website.
 
-[Full release notes](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0) · [All versions](./VERSIONS.md)
+[Full release notes](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.1) · [All versions](./VERSIONS.md)
 
 <details>
 <summary>Storage and network folders</summary>
@@ -248,7 +250,7 @@ Only Apple silicon Macs are supported. Lightferry is a one-time purchase: projec
 
 ## Help and feedback
 
-- **[User guides](https://lightferry.app/guides/)**: step-by-step guides for installing, ingesting, recovering interrupted tasks, and archiving.
+- **[User guides](https://lightferry.app/guides/?lang=en)**: step-by-step guides for installing, ingesting, recovering interrupted tasks, and archiving.
 - **[Report an issue or request a feature](https://github.com/Sorasukiawa/lightferry/issues/new/choose)**: the form asks for the app version, macOS version and chip, source and destination formats, reproduction steps, and error text.
 - **[Questions and ideas](https://github.com/Sorasukiawa/lightferry/discussions)**: usage questions, workflows, and ideas.
 - **Private matters**: email [support@lightferry.app](mailto:support@lightferry.app). For security issues, see [SECURITY.md](./SECURITY.md).

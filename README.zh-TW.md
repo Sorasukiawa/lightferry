@@ -18,9 +18,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.0/Lightferry_1.0.0_aarch64.dmg"><strong>下載 v1.0.0 · Apple Silicon Mac</strong></a>
+  <a href="https://github.com/Sorasukiawa/lightferry/releases/download/v1.0.1/Lightferry_1.0.1_aarch64.dmg"><strong>下載 v1.0.1 · Apple Silicon Mac</strong></a>
   &nbsp;·&nbsp; <a href="https://lightferry.app/zh-tw/guides/">使用指南</a>
-  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0">本次更新</a>
+  &nbsp;·&nbsp; <a href="https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.1">本次更新</a>
   &nbsp;·&nbsp; <a href="https://lightferry.app/zh-tw/pricing/">購買</a>
   &nbsp;·&nbsp; <a href="./VERSIONS.md">全部版本</a>
 </p>
@@ -228,7 +228,9 @@ XXH64 是內容差異檢查，不是加密簽名；通過後仍應人工抽查�
 
 </details>
 
-## 目前版本 · v1.0.0
+## 目前版本 · v1.0.1
+
+v1.0.1 為修正版：設定與預設不再因檔案損毀而遺失，插回拷過的卡可以直接補做記憶卡複核，外語介面與匯出報告不再夾雜簡體中文。1.0 的主要內容：
 
 - 拾光更名為光渡，安裝包通過 Apple Developer ID 簽名與公證。
 - 剪輯專案銜接：拷卡驗證通過後自動送入或產生 Final Cut Pro、DaVinci Resolve、Premiere Pro 或 CapCut 專案。
@@ -236,7 +238,7 @@ XXH64 是內容差異檢查，不是加密簽名；通過後仍應人工抽查�
 - 更嚴格的拷卡驗證：可選略過快取完整回讀或邊拷邊驗，完成頁直接給出能否格式化的結論，並可匯出 ASC MHL 清單。
 - 拷完郵件通知與網頁授權管理：工作結束後寄信告知記憶卡能不能格式化，可在官網管理與找回授權。
 
-[完整版本說明](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.0) · [所有版本](./VERSIONS.md)
+[完整版本說明](https://github.com/Sorasukiawa/lightferry/releases/tag/v1.0.1) · [所有版本](./VERSIONS.md)
 
 <details>
 <summary>儲存裝置與網路資料夾</summary>
